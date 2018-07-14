@@ -1,4 +1,4 @@
-﻿Log file open, 07/14/18 18:23:30
+﻿Log file open, 07/14/18 19:53:52
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: HotAsIce
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1713388465) SRandInit(1713388465).
+LogInit: Display: RandInit(-597636219) SRandInit(-597636219).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.272009
+LogStats: Stats thread started at 0.280939
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.314s to configure plugins.
+LogStreaming: Display: Took  1.338s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -219,744 +219,440 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: D:/programs/unreal/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.14-16.23.32:225][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.14-16.23.32:225][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.14-16.23.32:236][  0]LogInit: Computer: LAPTOP-0FSHU77K
-[2018.07.14-16.23.32:236][  0]LogInit: User: jenni
-[2018.07.14-16.23.32:236][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.07.14-16.23.32:236][  0]LogInit: High frequency timer resolution =2.742186 MHz
-[2018.07.14-16.23.32:236][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.07.14-16.23.32:236][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.14-16.23.32:236][  0]LogMemory: Process Physical Memory: 274.52 MB used, 274.52 MB peak
-[2018.07.14-16.23.32:236][  0]LogMemory: Process Virtual Memory: 264.91 MB used, 264.91 MB peak
-[2018.07.14-16.23.32:236][  0]LogMemory: Physical Memory: 7621.06 MB used,  8720.16 MB free, 16341.22 MB total
-[2018.07.14-16.23.32:236][  0]LogMemory: Virtual Memory: 683.92 MB used,  8720.16 MB free, 134217728.00 MB total
-[2018.07.14-16.23.32:276][  0]LogInit: Using OS detected language (en-GB).
-[2018.07.14-16.23.32:276][  0]LogInit: Using OS detected locale (de-DE).
-[2018.07.14-16.23.32:280][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.07.14-16.23.32:706][  0]LogStreaming: Display: Took  0.430s to EndInitTextLocalization.
-[2018.07.14-16.23.32:706][  0]LogInit: Setting process to per monitor DPI aware
-[2018.07.14-16.23.32:745][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.14-16.23.32:745][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.14-16.23.33:021][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.14-16.23.33:091][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2018.07.14-16.23.33:091][  0]LogD3D11RHI:       6061/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.07.14-16.23.33:095][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.14-16.23.33:095][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.14-16.23.33:095][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.14-16.23.33:105][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.14-16.23.33:105][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.14-16.23.33:105][  0]LogWindows: EnumDisplayDevices:
-[2018.07.14-16.23.33:106][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
-[2018.07.14-16.23.33:106][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.07.14-16.23.33:106][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.07.14-16.23.33:106][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.07.14-16.23.33:106][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.14-16.23.33:106][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2018.07.14-16.23.33:106][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.14-16.23.33:106][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.14-16.23.33:106][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
-[2018.07.14-16.23.33:140][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.14-16.23.33:140][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.14-16.23.33:140][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.14-16.23.33:151][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.07.14-16.23.33:193][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Intermediate/Shaders/WorkingDirectory/19556/).
-[2018.07.14-16.23.33:193][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jenni/AppData/Local/Temp/UnrealShaderWorkingDir/F0F509BE4CBD7F46B8D59D894583C26D/'.
-[2018.07.14-16.23.33:595][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.07.14-16.23.33:610][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.07.14-16.23.33:623][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.07.14-16.23.33:638][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.07.14-16.23.33:651][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.07.14-16.23.33:668][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.14-16.23.33:682][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.14-16.23.33:697][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.14-16.23.33:703][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.14-16.23.33:716][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.07.14-16.23.33:730][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.07.14-16.23.33:742][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.07.14-16.23.33:757][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.07.14-16.23.33:770][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.07.14-16.23.33:783][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.07.14-16.23.33:808][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.07.14-16.23.33:808][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.07.14-16.23.33:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.07.14-16.23.33:823][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.07.14-16.23.33:862][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.07.14-16.23.33:874][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.07.14-16.23.33:886][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.07.14-16.23.33:900][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.07.14-16.23.33:912][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.07.14-16.23.33:925][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.07.14-16.23.33:925][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.14-16.23.34:060][  0]LogXGEController: Cleaning working directory: C:/Users/jenni/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.07.14-16.23.34:061][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.07.14-16.23.34:061][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.07.14-16.23.34:061][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.14-16.23.34:748][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.14-16.23.34:823][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/jenni/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.14-16.23.34:823][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jenni/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.07.14-16.23.34:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.14-16.23.34:823][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.14-16.23.34:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.14-16.23.34:823][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.14-16.23.34:841][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.14-16.23.34:854][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jenni/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.14-16.23.34:854][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.07.14-16.23.34:854][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.07.14-16.23.34:867][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.14-16.23.34:867][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.14-16.23.34:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.14-16.23.34:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.14-16.23.35:029][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
-[2018.07.14-16.23.35:344][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.14-16.23.35:421][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.14-16.23.35:424][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.14-16.23.35:424][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.14-16.23.35:424][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.14-16.23.35:424][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.14-16.23.35:424][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.14-16.23.35:539][  0]LogNetVersion: HotAsIce , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 389168531)
-[2018.07.14-16.23.36:003][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.095359 seconds
-[2018.07.14-16.23.36:009][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.07.14-16.23.36:009][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.07.14-16.23.36:009][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.14-16.23.37:857][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.14-16.23.37:893][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.14-16.23.38:359][  0]SourceControl: Source control is disabled
-[2018.07.14-16.23.38:359][  0]SourceControl: Source control is disabled
-[2018.07.14-16.23.38:385][  0]SourceControl: Source control is disabled
-[2018.07.14-16.23.38:408][  0]SourceControl: Source control is disabled
-[2018.07.14-16.23.39:033][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.14-16.23.39:217][  0]LogOcInput: OculusInput pre-init called
-[2018.07.14-16.23.39:348][  0]LogEngine: Initializing Engine...
-[2018.07.14-16.23.39:351][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.07.14-16.23.39:352][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.14-16.23.39:352][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.14-16.23.39:570][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.07.14-16.23.39:632][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.14-16.23.39:654][  0]LogInit: FAudioDevice initialized.
-[2018.07.14-16.23.39:719][  0]LogDerivedDataCache: Saved boot cache 0.06s 74MB C:/Users/jenni/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.14-16.23.39:732][  0]LogInit: Texture streaming: Enabled
-[2018.07.14-16.23.39:750][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.07.14-16.23.39:766][  0]LogInit: Transaction tracking system initialized
-[2018.07.14-16.23.39:790][  0]BlueprintLog: New page: Editor Load
-[2018.07.14-16.23.39:866][  0]LocalizationService: Localization service is disabled
-[2018.07.14-16.23.39:961][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerPresets/SideScrollerOverview'
-[2018.07.14-16.23.39:961][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerPresets/SideScrollerOverview'
-[2018.07.14-16.23.39:961][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerPresets/SideScrollerOverview.SideScrollerOverview_C'
-[2018.07.14-16.23.39:983][  0]LogConsoleResponse: Display: 
-[2018.07.14-16.23.40:141][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.07.14-16.23.40:141][  0]LogCook: Display: Mobile HDR setting 1
-[2018.07.14-16.23.40:141][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.14-16.23.40:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.14-16.23.40:142][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.14-16.23.40:633][  0]LogFileCache: Scanning file cache for directory 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/' took 0.01s
-[2018.07.14-16.23.40:633][  0]SourceControl: Source control is disabled
-[2018.07.14-16.23.40:633][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.14-16.23.40:633][  0]LightingResults: New page: Lighting Build
-[2018.07.14-16.23.40:636][  0]MapCheck: New page: Map Check
-[2018.07.14-16.23.40:636][  0]LightingResults: New page: Lighting Build
-[2018.07.14-16.23.40:825][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.07.14-16.23.40:833][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.14-16.23.40:844][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.14-16.23.40:901][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57,034ms to complete.
-[2018.07.14-16.23.40:901][  0]LogFileHelpers: Loading map 'Template_Default' took 0.268
-[2018.07.14-16.23.41:039][  0]LogCollectionManager: Loaded 0 collections in 0.001460 seconds
-[2018.07.14-16.23.41:088][  0]LogFileCache: Scanning file cache for directory 'D:/BrainsEden/BrainsEden2018/HotAsIce/Saved/Collections/' took 0.01s
-[2018.07.14-16.23.41:088][  0]LogFileCache: Scanning file cache for directory 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/Developers/jenni/Collections/' took 0.01s
-[2018.07.14-16.23.41:088][  0]LogFileCache: Scanning file cache for directory 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/Collections/' took 0.01s
-[2018.07.14-16.23.41:088][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.07.14-16.23.41:098][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2452 classes and 558 folders.
-[2018.07.14-16.23.41:104][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.14-16.23.41:172][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.14-16.23.41:178][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.07.14-16.23.41:187][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
-[2018.07.14-16.23.41:255][  0]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.07.14-16.23.41:257][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.07.14-16.23.41:265][  0]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.07.14-16.23.41:372][  0]LogRenderer: Reallocating scene render targets to support 1128x516 Format 10 NumSamples 1 (Frame:1).
-[2018.07.14-16.23.41:527][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.07.14-16.23.41:527][  0]LogLoad: (Engine Initialization) Total time: 12.21 seconds
-[2018.07.14-16.23.41:527][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.14-16.23.41:546][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.07.14-16.23.41:565][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.07.14-16.23.41:600][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.14-16.23.41:644][  1]LogAssetRegistry: Asset discovery search completed in 6.6374 seconds
-[2018.07.14-16.23.41:647][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.07.14-16.23.41:647][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
-[2018.07.14-16.23.42:557][ 53]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.14-16.23.45:400][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.23.51:793][605]LogLinker: Warning: Can't find file '/Game/Maps/FV_Level_Test_BuiltData'
-[2018.07.14-16.23.51:794][605]LogLinker: Warning: Can't find file for asset '/Game/Maps/FV_Level_Test_BuiltData' while loading ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Maps/FV_Level_Test.umap.
-[2018.07.14-16.23.51:794][605]LoadErrors: Error: /Game/Maps/FV_Level_Test : Can't find file for asset. /Game/Maps/FV_Level_Test_BuiltData
-[2018.07.14-16.23.51:795][605]LogLinker: Warning: Can't find file '/Game/Maps/FV_Level_Test_BuiltData'
-[2018.07.14-16.23.51:795][605]LogLinker: Warning: Can't find file for asset '/Game/Maps/FV_Level_Test_BuiltData' while loading ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Maps/FV_Level_Test.umap.
-[2018.07.14-16.23.51:797][605]LogLinker: Warning: Can't find file '/Game/Maps/FV_Level_Test_BuiltData'
-[2018.07.14-16.23.51:798][605]LoadErrors: Failed to load /Game/Maps/FV_Level_Test_BuiltData.FV_Level_Test_BuiltData Referenced by PersistentLevel
-[2018.07.14-16.23.51:798][605]LogLinker: Warning: Can't find file for asset '/Game/Maps/FV_Level_Test_BuiltData' while loading NULL.
-[2018.07.14-16.23.51:799][605]LogAIModule: Creating AISystem for world FV_Level_Test
-[2018.07.14-16.23.51:869][605]Cmd: MAP LOAD FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Maps/FV_Level_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.14-16.23.51:869][605]LightingResults: New page: Lighting Build
-[2018.07.14-16.23.51:870][605]LoadErrors: New page: Loading map: FV_Level_Test.umap
-[2018.07.14-16.23.51:871][605]MapCheck: New page: Map Check
-[2018.07.14-16.23.51:871][605]LightingResults: New page: Lighting Build
-[2018.07.14-16.23.51:954][605]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.14-16.23.51:984][605]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.14-16.23.52:043][605]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59,07ms to complete.
-[2018.07.14-16.23.52:045][605]LogFileHelpers: Loading map 'FV_Level_Test' took 0.188
-[2018.07.14-16.23.54:145][716]LogMaterial: Missing cached shader map for material BasicColor_Master_Material, compiling. 
-[2018.07.14-16.23.54:181][716]LogMaterial: Missing cached shader map for material BasicColor_Master_Material, compiling. 
-[2018.07.14-16.23.54:188][716]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.07.14-16.23.54:189][716]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.07.14-16.23.54:189][716]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.07.14-16.23.54:189][716]LogStaticMesh: Building static mesh ME__Pillar_One_Destroyed...
-[2018.07.14-16.23.54:199][716]LogStaticMesh: Built static mesh [0.01s] /Game/Art_Assets/ME__Pillar_One_Destroyed.ME__Pillar_One_Destroyed
-[2018.07.14-16.23.54:201][716]LogStaticMesh: Building static mesh ME__Tile_One...
-[2018.07.14-16.23.54:234][716]LogStaticMesh: Built static mesh [0.03s] /Game/Art_Assets/ME__Tile_One.ME__Tile_One
-[2018.07.14-16.23.54:236][716]LogStaticMesh: Building static mesh ME__Wall_One...
-[2018.07.14-16.23.54:310][716]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.07.14-16.23.54:310][716]LogStaticMesh: Built static mesh [0.07s] /Game/Art_Assets/ME__Wall_One.ME__Wall_One
-[2018.07.14-16.23.54:326][716]LogStaticMesh: Building static mesh ME__Wall_Three...
-[2018.07.14-16.23.54:338][716]LogStaticMesh: Built static mesh [0.01s] /Game/Art_Assets/ME__Wall_Three.ME__Wall_Three
-[2018.07.14-16.23.54:339][716]LogStaticMesh: Building static mesh ME__Wall_Two...
-[2018.07.14-16.23.54:367][716]LogStaticMesh: Built static mesh [0.03s] /Game/Art_Assets/ME__Wall_Two.ME__Wall_Two
-[2018.07.14-16.23.54:370][716]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
-[2018.07.14-16.23.54:411][716]LogStaticMesh: Building static mesh ME__Deco_Two...
-[2018.07.14-16.23.54:416][716]LogStaticMesh: Built static mesh [0.00s] /Game/Art_Assets/ME__Deco_Two.ME__Deco_Two
-[2018.07.14-16.23.54:417][716]LogStaticMesh: Building static mesh ME__Gateway_Closed...
-[2018.07.14-16.23.54:442][716]LogStaticMesh: Built static mesh [0.03s] /Game/Art_Assets/ME__Gateway_Closed.ME__Gateway_Closed
-[2018.07.14-16.23.54:445][716]LogStaticMesh: Building static mesh ME__Pillar_One...
-[2018.07.14-16.23.54:453][716]LogStaticMesh: Built static mesh [0.01s] /Game/Art_Assets/ME__Pillar_One.ME__Pillar_One
-[2018.07.14-16.23.54:458][716]LogAIModule: Creating AISystem for world BasicLevel
-[2018.07.14-16.23.54:476][716]Cmd: MAP LOAD FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Maps/BasicLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.14-16.23.54:476][716]LightingResults: New page: Lighting Build
-[2018.07.14-16.23.54:477][716]LoadErrors: New page: Loading map: BasicLevel.umap
-[2018.07.14-16.23.54:477][716]MapCheck: New page: Map Check
-[2018.07.14-16.23.54:477][716]LightingResults: New page: Lighting Build
-[2018.07.14-16.23.54:571][716]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.14-16.23.54:610][716]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.14-16.23.54:689][716]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79,183ms to complete.
-[2018.07.14-16.23.54:691][716]LogFileHelpers: Loading map 'BasicLevel' took 0.216
-[2018.07.14-16.23.54:982][725]LogShaderCompilers: Display: Shaders left to compile 17
-[2018.07.14-16.23.56:623][823]LogShaderCompilers: Display: Shaders left to compile 7
-[2018.07.14-16.23.58:222][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.24.00:751][ 68]LogMaterial: Missing cached shader map for material BasicColor_Master_Material, compiling. 
-[2018.07.14-16.24.00:768][ 68]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.07.14-16.24.00:768][ 68]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.07.14-16.24.00:768][ 68]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.07.14-16.24.00:808][ 70]LogActorFactory: Actor Factory created cone
-[2018.07.14-16.24.01:478][110]LogActorFactory: Actor Factory created cone
-[2018.07.14-16.24.02:340][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.24.02:457][162]LogActorFactory: Actor Factory created pepper
-[2018.07.14-16.24.03:184][205]LogActorFactory: Actor Factory created pepper
-[2018.07.14-16.24.10:797][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cone)
-[2018.07.14-16.24.18:608][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pepper)
-[2018.07.14-16.24.28:560][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.24.28:667][692]Cmd: MODE SCALEGRID=0
-[2018.07.14-16.24.31:665][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
-[2018.07.14-16.24.58:550][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.25.03:483][727]LogRenderer: Reallocating scene render targets to support 1128x624 Format 10 NumSamples 1 (Frame:1).
-[2018.07.14-16.25.53:169][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cone)
-[2018.07.14-16.25.54:351][734]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (pepper)
-[2018.07.14-16.25.55:315][784]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (pepper)
-[2018.07.14-16.26.02:892][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
-[2018.07.14-16.26.25:928][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.26.36:887][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
-[2018.07.14-16.26.38:435][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.26.47:838][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.27.02:565][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
-[2018.07.14-16.27.03:515][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.27.06:514][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.27.26:937][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.31.28:238][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.33.54:672][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BasicLevel" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Maps/BasicLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.07.14-16.33.54:744][688]LogSavePackage: Save=65.24ms
-[2018.07.14-16.33.54:744][688]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/BasicLevel_Auto14A4F01474DCE056CE952B8AE87B5B652.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Maps/BasicLevel_Auto1.umap'
-[2018.07.14-16.33.54:746][688]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Maps/BasicLevel_Auto1.umap
-[2018.07.14-16.33.54:749][688]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BasicLevel' took 0.090
-[2018.07.14-16.33.54:749][688]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.090
-[2018.07.14-16.33.54:753][688]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/ConeIceCream] ([1] browsable assets)...
-[2018.07.14-16.33.54:779][688]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/ConeIceCream.ConeIceCream]
-[2018.07.14-16.33.54:779][688]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/ConeIceCream]
-[2018.07.14-16.33.54:799][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ConeIceCream, compiling. 
-[2018.07.14-16.33.55:263][688]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.07.14-16.33.55:265][688]TextureStreamingBuild: Display: Compiling optional shaders took 0.473 seconds.
-[2018.07.14-16.33.55:292][688]LogSavePackage: Save=13.14ms
-[2018.07.14-16.33.55:292][688]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/ConeIceCream_Auto1475D932B45874A3C6070E49AB2918035.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Materials/ConeIceCream_Auto1.uasset'
-[2018.07.14-16.33.55:295][688]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Materials/ConeIceCream_Auto1.uasset
-[2018.07.14-16.33.55:296][688]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/PepperBody] ([1] browsable assets)...
-[2018.07.14-16.33.55:320][688]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/PepperBody.PepperBody]
-[2018.07.14-16.33.55:320][688]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/PepperBody]
-[2018.07.14-16.33.55:320][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PepperBody" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Materials/PepperBody_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.07.14-16.33.55:337][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PepperBody, compiling. 
-[2018.07.14-16.33.55:488][688]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.07.14-16.33.55:492][688]TextureStreamingBuild: Display: Compiling optional shaders took 0.160 seconds.
-[2018.07.14-16.33.55:518][688]LogSavePackage: Save=11.99ms
-[2018.07.14-16.33.55:518][688]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperBody_Auto173C84FA8424E9EFFE9B623912F20E13A.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Materials/PepperBody_Auto1.uasset'
-[2018.07.14-16.33.55:520][688]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Materials/PepperBody_Auto1.uasset
-[2018.07.14-16.33.55:522][688]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/PepperHead] ([1] browsable assets)...
-[2018.07.14-16.33.55:543][688]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/PepperHead.PepperHead]
-[2018.07.14-16.33.55:543][688]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/PepperHead]
-[2018.07.14-16.33.55:543][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PepperHead" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Materials/PepperHead_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.07.14-16.33.55:560][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PepperHead, compiling. 
-[2018.07.14-16.33.55:709][688]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.07.14-16.33.55:712][688]TextureStreamingBuild: Display: Compiling optional shaders took 0.155 seconds.
-[2018.07.14-16.33.55:738][688]LogSavePackage: Save=13.28ms
-[2018.07.14-16.33.55:738][688]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperHead_Auto175FFC1E9442B481BE95280873C1A48D3.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Materials/PepperHead_Auto1.uasset'
-[2018.07.14-16.33.55:740][688]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Materials/PepperHead_Auto1.uasset
-[2018.07.14-16.33.55:740][688]LogFileHelpers: Auto-saving content packages took 0.989
-[2018.07.14-16.39.07:265][852]LogSlate: Window 'Message' being destroyed
-[2018.07.14-16.39.07:273][852]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/cone.FBX)
-[2018.07.14-16.39.07:279][852]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/cone.FBX]
-[2018.07.14-16.39.07:343][852]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/cone.FBX
-[2018.07.14-16.39.07:474][852]LogFbx: FBX Scene Loaded Succesfully
-[2018.07.14-16.39.07:478][852]LogFbx: Warning: Triangulating static mesh Cylinder002
-[2018.07.14-16.39.07:597][852]LogStaticMesh: Building static mesh cone...
-[2018.07.14-16.39.07:638][852]LogStaticMesh: Built static mesh [0.04s] /Game/Art_Assets/Meshes/cone.cone
-[2018.07.14-16.39.07:661][852]LogEditorFactories: -- imported successfully
-[2018.07.14-16.39.55:235][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.39.58:447][560]LogSlate: Window 'Message' being destroyed
-[2018.07.14-16.39.58:454][560]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/cone.FBX)
-[2018.07.14-16.39.58:456][560]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/cone.FBX]
-[2018.07.14-16.39.58:520][560]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/cone.FBX
-[2018.07.14-16.39.58:605][560]LogFbx: FBX Scene Loaded Succesfully
-[2018.07.14-16.39.58:609][560]LogFbx: Warning: Triangulating static mesh Cylinder002
-[2018.07.14-16.39.58:721][560]LogStaticMesh: Building static mesh cone...
-[2018.07.14-16.39.58:763][560]LogStaticMesh: Built static mesh [0.04s] /Game/Art_Assets/Meshes/cone.cone
-[2018.07.14-16.39.58:786][560]LogEditorFactories: -- imported successfully
-[2018.07.14-16.40.39:654][720]LogSlate: Window 'Message' being destroyed
-[2018.07.14-16.40.39:664][720]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/cone.FBX)
-[2018.07.14-16.40.39:666][720]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/cone.FBX]
-[2018.07.14-16.40.39:732][720]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/cone.FBX
-[2018.07.14-16.40.39:815][720]LogFbx: FBX Scene Loaded Succesfully
-[2018.07.14-16.40.39:818][720]LogFbx: Warning: Triangulating static mesh Cylinder002
-[2018.07.14-16.40.39:920][720]LogStaticMesh: Building static mesh cone...
-[2018.07.14-16.40.39:961][720]LogStaticMesh: Built static mesh [0.04s] /Game/Art_Assets/Meshes/cone.cone
-[2018.07.14-16.40.40:000][720]LogEditorFactories: -- imported successfully
-[2018.07.14-16.41.20:626][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.41.32:974][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.41.33:012][325]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2018.07.14-16.41.33:089][325]LogShaderCompilers: Display: Shaders left to compile 44
-[2018.07.14-16.41.33:089][325]LogShaderCompilers: Display: Shaders left to compile 34
-[2018.07.14-16.41.33:089][325]LogShaderCompilers: Display: Shaders left to compile 24
-[2018.07.14-16.41.33:089][325]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.07.14-16.41.35:188][444]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.07.14-16.41.46:394][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.43.38:020][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.43.42:508][567]LogSlate: Window 'Message' being destroyed
-[2018.07.14-16.43.44:380][567]LogSlate: Window 'Message' being destroyed
-[2018.07.14-16.43.44:384][567]LogAssetTools: Warning: Failed to delete '/Game/Materials/cone'. The asset is referenced by other content.
-[2018.07.14-16.43.51:738][742]LogSlate: Window 'Message' being destroyed
-[2018.07.14-16.43.51:747][742]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/cone.FBX)
-[2018.07.14-16.43.51:750][742]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/cone.FBX]
-[2018.07.14-16.43.51:817][742]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/cone.FBX
-[2018.07.14-16.43.51:905][742]LogFbx: FBX Scene Loaded Succesfully
-[2018.07.14-16.43.51:909][742]LogFbx: Warning: Triangulating static mesh Cylinder002
-[2018.07.14-16.43.52:019][742]LogStaticMesh: Building static mesh cone...
-[2018.07.14-16.43.52:065][742]LogStaticMesh: Built static mesh [0.05s] /Game/Art_Assets/Meshes/cone.cone
-[2018.07.14-16.43.52:088][742]LogEditorFactories: -- imported successfully
-[2018.07.14-16.44.23:947][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BasicLevel" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Maps/BasicLevel_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.07.14-16.44.24:016][438]LogSavePackage: Save=62.44ms
-[2018.07.14-16.44.24:016][438]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/BasicLevel_Auto2310FD8234A34F04B4626028F2855DEB7.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Maps/BasicLevel_Auto2.umap'
-[2018.07.14-16.44.24:018][438]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Maps/BasicLevel_Auto2.umap
-[2018.07.14-16.44.24:021][438]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BasicLevel' took 0.086
-[2018.07.14-16.44.24:021][438]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.086
-[2018.07.14-16.44.24:024][438]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art_Assets/Meshes/cone] ([1] browsable assets)...
-[2018.07.14-16.44.24:035][438]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art_Assets/Meshes/cone.cone]
-[2018.07.14-16.44.24:035][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art_Assets/Meshes/cone]
-[2018.07.14-16.44.24:053][438]LogSavePackage: Save=13.29ms
-[2018.07.14-16.44.24:054][438]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/cone_Auto28A7C763F45F0CFFE30F7929B6B367561.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Meshes/cone_Auto2.uasset'
-[2018.07.14-16.44.24:056][438]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Meshes/cone_Auto2.uasset
-[2018.07.14-16.44.24:056][438]LogFileHelpers: Auto-saving content packages took 0.034
-[2018.07.14-16.44.52:567][576]LogSlate: Window 'Message' being destroyed
-[2018.07.14-16.44.52:577][576]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/cone.FBX)
-[2018.07.14-16.44.52:580][576]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/cone.FBX]
-[2018.07.14-16.44.52:647][576]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/cone.FBX
-[2018.07.14-16.44.52:737][576]LogFbx: FBX Scene Loaded Succesfully
-[2018.07.14-16.44.52:741][576]LogFbx: Warning: Triangulating static mesh Cylinder002
-[2018.07.14-16.44.52:873][576]LogStaticMesh: Building static mesh cone...
-[2018.07.14-16.44.52:919][576]LogStaticMesh: Built static mesh [0.05s] /Game/Art_Assets/Meshes/cone.cone
-[2018.07.14-16.44.52:943][576]LogEditorFactories: -- imported successfully
-[2018.07.14-16.45.00:976][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.45.25:592][184]LogSlate: Window 'Message' being destroyed
-[2018.07.14-16.45.25:600][184]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/cone.FBX)
-[2018.07.14-16.45.25:603][184]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/cone.FBX]
-[2018.07.14-16.45.25:673][184]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/cone.FBX
-[2018.07.14-16.45.25:767][184]LogFbx: FBX Scene Loaded Succesfully
-[2018.07.14-16.45.25:772][184]LogFbx: Warning: Triangulating static mesh Cylinder002
-[2018.07.14-16.45.25:893][184]LogStaticMesh: Building static mesh cone...
-[2018.07.14-16.45.25:941][184]LogStaticMesh: Built static mesh [0.05s] /Game/Art_Assets/Meshes/cone.cone
-[2018.07.14-16.45.25:965][184]LogEditorFactories: -- imported successfully
-[2018.07.14-16.45.38:059][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/ConeIceCream" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/ConeIceCream.uasset" SILENT=true
-[2018.07.14-16.45.38:075][883]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ConeIceCream, compiling. 
-[2018.07.14-16.45.38:524][883]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.07.14-16.45.38:526][883]TextureStreamingBuild: Display: Compiling optional shaders took 0.453 seconds.
-[2018.07.14-16.45.38:542][883]LogSavePackage: Save=2.80ms
-[2018.07.14-16.45.38:542][883]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/ConeIceCream6900B11743A4C32DD9D26EAB33CA37C3.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/ConeIceCream.uasset'
-[2018.07.14-16.45.38:546][883]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/ConeIceCream.uasset
-[2018.07.14-16.46.10:031][375]LogSlate: Window 'Color Picker' being destroyed
-[2018.07.14-16.46.32:036][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/Meshes/cone" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Meshes/cone.uasset" SILENT=true
-[2018.07.14-16.46.32:056][578]LogSavePackage: Save=14.59ms
-[2018.07.14-16.46.32:056][578]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/cone39180C32448923FB6D851FAAB7F93F83.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Meshes/cone.uasset'
-[2018.07.14-16.46.32:061][578]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Meshes/cone.uasset
-[2018.07.14-16.46.38:636][873]LogActorFactory: Actor Factory created cone
-[2018.07.14-16.46.39:843][945]LogActorFactory: Actor Factory created cone
-[2018.07.14-16.46.51:561][525]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.14-16.47.08:714][477]LogSlate: Window 'Color Picker' being destroyed
-[2018.07.14-16.48.17:938][216]LogSlate: Window 'Color Picker' being destroyed
-[2018.07.14-16.48.31:362][992]LogSlate: Window 'Color Picker' being destroyed
-[2018.07.14-16.48.32:118][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cone)
-[2018.07.14-16.48.32:985][ 85]Cmd: DELETE
-[2018.07.14-16.48.32:985][ 85]Cmd: ACTOR DELETE
-[2018.07.14-16.48.32:987][ 85]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.07.14-16.48.32:998][ 85]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2018.07.14-16.48.34:913][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
-[2018.07.14-16.48.36:033][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.54.09:170][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-16.54.10:592][346]LogSlate: Window 'Save Content' being destroyed
-[2018.07.14-16.54.10:718][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BasicLevel" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Maps/BasicLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.07.14-16.54.10:797][346]LogSavePackage: Save=62.44ms
-[2018.07.14-16.54.10:797][346]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/BasicLevel77CB16D548AD66C269C509B64F486DF1.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Maps/BasicLevel.umap'
-[2018.07.14-16.54.10:801][346]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Maps/BasicLevel.umap
-[2018.07.14-16.54.10:823][346]LogFileHelpers: Saving map 'BasicLevel' took 0.177
-[2018.07.14-16.54.10:837][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/ConeTongue" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/ConeTongue.uasset" SILENT=true
-[2018.07.14-16.54.10:854][346]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ConeTongue, compiling. 
-[2018.07.14-16.54.11:313][346]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.07.14-16.54.11:315][346]TextureStreamingBuild: Display: Compiling optional shaders took 0.466 seconds.
-[2018.07.14-16.54.11:339][346]LogSavePackage: Save=13.40ms
-[2018.07.14-16.54.11:339][346]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/ConeTongueFCC7D84A44D2CEA6BDE004999938E040.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/ConeTongue.uasset'
-[2018.07.14-16.54.11:343][346]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/ConeTongue.uasset
-[2018.07.14-16.54.11:346][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PepperBody" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/PepperBody.uasset" SILENT=true
-[2018.07.14-16.54.11:362][346]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PepperBody, compiling. 
-[2018.07.14-16.54.11:512][346]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.07.14-16.54.11:513][346]TextureStreamingBuild: Display: Compiling optional shaders took 0.154 seconds.
-[2018.07.14-16.54.11:529][346]LogSavePackage: Save=3.18ms
-[2018.07.14-16.54.11:529][346]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperBodyC43F3BEE4DC32B8863CDAAAE11EDF714.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/PepperBody.uasset'
-[2018.07.14-16.54.11:534][346]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/PepperBody.uasset
-[2018.07.14-16.54.11:539][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PepperHead" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/PepperHead.uasset" SILENT=true
-[2018.07.14-16.54.11:556][346]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PepperHead, compiling. 
-[2018.07.14-16.54.11:693][346]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.07.14-16.54.11:693][346]TextureStreamingBuild: Display: Compiling optional shaders took 0.141 seconds.
-[2018.07.14-16.54.11:709][346]LogSavePackage: Save=3.16ms
-[2018.07.14-16.54.11:709][346]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperHead263F68AA4EAFCE3AA6DB188AC4F172BB.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/PepperHead.uasset'
-[2018.07.14-16.54.11:714][346]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/PepperHead.uasset
-[2018.07.14-16.54.12:945][404]LogSlate: Window 'ConeTongue' being destroyed
-[2018.07.14-16.54.12:982][404]LogSlate: Window 'HotAsIce - Unreal Editor' being destroyed
-[2018.07.14-16.54.12:983][404]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.07.14-16.54.13:190][405]Cmd: QUIT_EDITOR
-[2018.07.14-16.54.13:225][405]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.07.14-16.54.13:225][405]LogExit: Preparing to exit.
-[2018.07.14-16.54.13:589][405]LogDirectoryWatcher: A directory notification for 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/' was aborted.
-[2018.07.14-16.54.13:606][405]LogExit: Editor shut down
-[2018.07.14-16.54.13:617][405]LogExit: Transaction tracking system shut down
-[2018.07.14-16.54.13:745][405]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.07.14-16.54.13:745][405]LogDirectoryWatcher: A directory notification for '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/' was aborted.
-[2018.07.14-16.54.13:745][405]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.07.14-16.54.13:745][405]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.07.14-16.54.13:745][405]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.07.14-16.54.13:745][405]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.07.14-16.54.13:745][405]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.07.14-16.54.13:745][405]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.07.14-16.54.13:800][405]LogExit: Object subsystem successfully closed.
-[2018.07.14-16.54.13:821][405]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.07.14-16.54.13:825][405]LogD3D11RHI: Shutdown
-[2018.07.14-16.54.13:825][405]LogD3D11RHI: CleanupD3DDevice
-[2018.07.14-16.54.13:835][405]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.07.14-16.54.13:842][405]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (580)
-[2018.07.14-16.54.13:842][405]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (578)
-[2018.07.14-16.54.13:842][405]LogModuleManager: Shutting down and abandoning module WorldBrowser (576)
-[2018.07.14-16.54.13:842][405]LogModuleManager: Shutting down and abandoning module SceneOutliner (574)
-[2018.07.14-16.54.13:842][405]LogModuleManager: Shutting down and abandoning module AddContentDialog (572)
-[2018.07.14-16.54.13:842][405]LogDirectoryWatcher: A directory notification for 'D:/programs/unreal/UE_4.19/FeaturePacks/' was aborted.
-[2018.07.14-16.54.13:843][405]LogModuleManager: Shutting down and abandoning module WidgetCarousel (571)
-[2018.07.14-16.54.13:843][405]LogModuleManager: Shutting down and abandoning module EditorWidgets (568)
-[2018.07.14-16.54.13:843][405]LogModuleManager: Shutting down and abandoning module CollectionManager (566)
-[2018.07.14-16.54.13:843][405]LogDirectoryWatcher: A directory notification for 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/Collections/' was aborted.
-[2018.07.14-16.54.13:843][405]LogDirectoryWatcher: A directory notification for 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/Developers/jenni/Collections/' was aborted.
-[2018.07.14-16.54.13:843][405]LogDirectoryWatcher: A directory notification for 'D:/BrainsEden/BrainsEden2018/HotAsIce/Saved/Collections/' was aborted.
-[2018.07.14-16.54.13:843][405]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (564)
-[2018.07.14-16.54.13:843][405]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module BspMode (546)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module SessionServices (500)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
-[2018.07.14-16.54.13:844][405]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
-[2018.07.14-16.54.13:845][405]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
-[2018.07.14-16.54.13:845][405]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
-[2018.07.14-16.54.13:845][405]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
-[2018.07.14-16.54.13:845][405]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
-[2018.07.14-16.54.13:845][405]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module MergeActors (468)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module XmlParser (456)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module Blutility (454)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
-[2018.07.14-16.54.14:633][405]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
-[2018.07.14-16.54.14:685][405]LogModuleManager: Shutting down and abandoning module AutomationController (434)
-[2018.07.14-16.54.14:685][405]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
-[2018.07.14-16.54.14:685][405]LogModuleManager: Shutting down and abandoning module Layers (430)
-[2018.07.14-16.54.14:685][405]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
-[2018.07.14-16.54.14:685][405]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
-[2018.07.14-16.54.14:685][405]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
-[2018.07.14-16.54.14:685][405]LogModuleManager: Shutting down and abandoning module Persona (422)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module Kismet (416)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module Toolbox (410)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module OutputLog (404)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module GammaUI (402)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module Documentation (400)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module MovieScene (396)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module PortalServices (388)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module AIModule (382)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
-[2018.07.14-16.54.14:686][405]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module OculusInput (364)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module CableComponent (358)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
-[2018.07.14-16.54.14:858][405]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
-[2018.07.14-16.54.14:861][405]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
-[2018.07.14-16.54.14:861][405]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
-[2018.07.14-16.54.14:861][405]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
-[2018.07.14-16.54.14:861][405]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
-[2018.07.14-16.54.14:861][405]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
-[2018.07.14-16.54.14:861][405]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module SourceControl (303)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2018.07.14-16.54.14:862][405]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2018.07.14-16.54.14:963][405]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2018.07.14-16.54.15:063][405]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2018.07.14-16.54.15:063][405]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2018.07.14-16.54.15:063][405]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2018.07.14-16.54.15:063][405]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2018.07.14-16.54.15:063][405]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2018.07.14-16.54.15:063][405]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2018.07.14-16.54.15:064][405]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2018.07.14-16.54.15:065][405]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2018.07.14-16.54.15:065][405]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2018.07.14-16.54.15:065][405]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2018.07.14-16.54.15:065][405]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2018.07.14-16.54.15:066][405]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2018.07.14-16.54.15:066][405]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2018.07.14-16.54.15:066][405]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2018.07.14-16.54.15:066][405]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2018.07.14-16.54.15:193][405]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2018.07.14-16.54.15:193][405]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2018.07.14-16.54.15:193][405]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2018.07.14-16.54.15:197][405]LogModuleManager: Shutting down and abandoning module Media (233)
-[2018.07.14-16.54.15:203][405]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2018.07.14-16.54.15:203][405]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2018.07.14-16.54.15:203][405]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2018.07.14-16.54.15:203][405]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2018.07.14-16.54.15:203][405]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2018.07.14-16.54.15:203][405]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2018.07.14-16.54.15:203][405]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2018.07.14-16.54.15:203][405]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2018.07.14-16.54.15:203][405]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2018.07.14-16.54.15:203][405]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2018.07.14-16.54.15:203][405]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2018.07.14-16.54.15:203][405]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2018.07.14-16.54.15:204][405]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2018.07.14-16.54.15:204][405]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2018.07.14-16.54.15:204][405]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2018.07.14-16.54.15:204][405]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2018.07.14-16.54.15:204][405]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2018.07.14-16.54.15:204][405]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2018.07.14-16.54.15:204][405]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2018.07.14-16.54.15:204][405]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module Core (178)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2018.07.14-16.54.15:205][405]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2018.07.14-16.54.15:207][405]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2018.07.14-16.54.15:250][405]LogDerivedDataCache: Shutdown
-[2018.07.14-16.54.15:250][405]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2018.07.14-16.54.15:250][405]LogXGEController: Cleaning working directory: C:/Users/jenni/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2018.07.14-16.54.15:251][405]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.07.14-16.54.15:252][405]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.07.14-16.54.15:252][405]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.07.14-16.54.15:252][405]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B228DAD67-45B5-F95B-E2B9-7A85BBD588AB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=c6d563e5492e88c256b4c6b368edfac5%7C139496f2ec3e4a238267ad01c3cb9c62%7C8e32ebbc-6442-4dc0-8d56-332ba37520ce&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.07.14-16.54.15:265][405]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.07.14-16.54.15:266][405]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.07.14-16.54.15:266][405]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.07.14-16.54.15:266][405]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.07.14-16.54.15:266][405]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.07.14-16.54.15:267][405]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.07.14-16.54.15:276][405]LogExit: Exiting.
-[2018.07.14-16.54.15:285][405]Log file closed, 07/14/18 18:54:15
+[2018.07.14-17.53.54:544][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.14-17.53.54:544][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.14-17.53.54:555][  0]LogInit: Computer: LAPTOP-0FSHU77K
+[2018.07.14-17.53.54:555][  0]LogInit: User: jenni
+[2018.07.14-17.53.54:555][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.14-17.53.54:555][  0]LogInit: High frequency timer resolution =2.742186 MHz
+[2018.07.14-17.53.54:555][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.07.14-17.53.54:555][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.14-17.53.54:555][  0]LogMemory: Process Physical Memory: 274.53 MB used, 274.53 MB peak
+[2018.07.14-17.53.54:555][  0]LogMemory: Process Virtual Memory: 264.86 MB used, 264.86 MB peak
+[2018.07.14-17.53.54:555][  0]LogMemory: Physical Memory: 9251.53 MB used,  7089.70 MB free, 16341.22 MB total
+[2018.07.14-17.53.54:555][  0]LogMemory: Virtual Memory: 683.92 MB used,  7089.70 MB free, 134217728.00 MB total
+[2018.07.14-17.53.54:595][  0]LogInit: Using OS detected language (en-GB).
+[2018.07.14-17.53.54:595][  0]LogInit: Using OS detected locale (de-DE).
+[2018.07.14-17.53.54:599][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.07.14-17.53.55:032][  0]LogStreaming: Display: Took  0.437s to EndInitTextLocalization.
+[2018.07.14-17.53.55:032][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.14-17.53.55:077][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.14-17.53.55:077][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.14-17.53.55:358][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.14-17.53.55:429][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.07.14-17.53.55:429][  0]LogD3D11RHI:       6061/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.14-17.53.55:432][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.14-17.53.55:432][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.14-17.53.55:432][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.14-17.53.55:441][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.14-17.53.55:441][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.14-17.53.55:441][  0]LogWindows: EnumDisplayDevices:
+[2018.07.14-17.53.55:441][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2018.07.14-17.53.55:441][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.07.14-17.53.55:442][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.07.14-17.53.55:442][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.07.14-17.53.55:442][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.14-17.53.55:442][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.07.14-17.53.55:442][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.14-17.53.55:442][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.14-17.53.55:442][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.07.14-17.53.55:476][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.14-17.53.55:476][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.14-17.53.55:476][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.14-17.53.55:500][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.07.14-17.53.55:542][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Intermediate/Shaders/WorkingDirectory/4324/).
+[2018.07.14-17.53.55:542][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jenni/AppData/Local/Temp/UnrealShaderWorkingDir/3C1924634D40B6746CD9A895707D9E7D/'.
+[2018.07.14-17.53.55:946][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.14-17.53.55:960][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.14-17.53.55:974][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.14-17.53.55:987][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.14-17.53.56:002][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.14-17.53.56:018][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.14-17.53.56:033][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.14-17.53.56:046][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.14-17.53.56:054][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.14-17.53.56:067][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.14-17.53.56:080][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.14-17.53.56:093][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.14-17.53.56:104][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.14-17.53.56:118][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.14-17.53.56:132][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.14-17.53.56:157][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.14-17.53.56:157][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.14-17.53.56:171][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.14-17.53.56:173][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.14-17.53.56:210][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.14-17.53.56:222][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.14-17.53.56:235][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.14-17.53.56:247][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.14-17.53.56:261][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.14-17.53.56:274][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.14-17.53.56:274][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.14-17.53.56:424][  0]LogXGEController: Cleaning working directory: C:/Users/jenni/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.14-17.53.56:424][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.14-17.53.56:424][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.14-17.53.56:424][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.14-17.53.57:121][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.14-17.53.57:197][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/jenni/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.14-17.53.57:197][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jenni/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.14-17.53.57:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.14-17.53.57:197][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.14-17.53.57:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.14-17.53.57:197][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.14-17.53.57:214][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.14-17.53.57:226][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jenni/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.14-17.53.57:226][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.14-17.53.57:226][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.14-17.53.57:239][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.14-17.53.57:239][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.14-17.53.57:240][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.14-17.53.57:240][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.14-17.53.57:390][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2018.07.14-17.53.57:700][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.14-17.53.57:858][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.14-17.53.57:861][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.14-17.53.57:861][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.14-17.53.57:861][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.14-17.53.57:861][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.14-17.53.57:861][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.14-17.53.57:901][  0]LogNetVersion: HotAsIce , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 389168531)
+[2018.07.14-17.53.58:455][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.098729 seconds
+[2018.07.14-17.53.58:460][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.14-17.53.58:460][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.07.14-17.53.58:460][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.14-17.54.00:477][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.14-17.54.00:514][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.14-17.54.00:971][  0]SourceControl: Source control is disabled
+[2018.07.14-17.54.00:971][  0]SourceControl: Source control is disabled
+[2018.07.14-17.54.00:996][  0]SourceControl: Source control is disabled
+[2018.07.14-17.54.01:021][  0]SourceControl: Source control is disabled
+[2018.07.14-17.54.01:646][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.14-17.54.01:830][  0]LogOcInput: OculusInput pre-init called
+[2018.07.14-17.54.01:960][  0]LogEngine: Initializing Engine...
+[2018.07.14-17.54.01:962][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.14-17.54.01:964][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.14-17.54.01:964][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.14-17.54.02:197][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.14-17.54.02:254][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.14-17.54.02:276][  0]LogInit: FAudioDevice initialized.
+[2018.07.14-17.54.02:337][  0]LogDerivedDataCache: Saved boot cache 0.06s 74MB C:/Users/jenni/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.14-17.54.02:349][  0]LogInit: Texture streaming: Enabled
+[2018.07.14-17.54.02:385][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.14-17.54.02:401][  0]LogInit: Transaction tracking system initialized
+[2018.07.14-17.54.02:426][  0]BlueprintLog: New page: Editor Load
+[2018.07.14-17.54.02:505][  0]LocalizationService: Localization service is disabled
+[2018.07.14-17.54.02:601][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerPresets/SideScrollerOverview'
+[2018.07.14-17.54.02:601][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerPresets/SideScrollerOverview'
+[2018.07.14-17.54.02:601][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerPresets/SideScrollerOverview.SideScrollerOverview_C'
+[2018.07.14-17.54.02:623][  0]LogConsoleResponse: Display: 
+[2018.07.14-17.54.02:782][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.14-17.54.02:783][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.14-17.54.02:783][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.14-17.54.02:783][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.14-17.54.02:783][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.14-17.54.03:275][  0]LogFileCache: Scanning file cache for directory 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/' took 0.01s
+[2018.07.14-17.54.03:275][  0]SourceControl: Source control is disabled
+[2018.07.14-17.54.03:275][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.14-17.54.03:275][  0]LightingResults: New page: Lighting Build
+[2018.07.14-17.54.03:278][  0]MapCheck: New page: Map Check
+[2018.07.14-17.54.03:278][  0]LightingResults: New page: Lighting Build
+[2018.07.14-17.54.03:475][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.14-17.54.03:480][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.14-17.54.03:492][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.14-17.54.03:549][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56,451ms to complete.
+[2018.07.14-17.54.03:549][  0]LogFileHelpers: Loading map 'Template_Default' took 0.274
+[2018.07.14-17.54.03:714][  0]LogCollectionManager: Loaded 0 collections in 0.001634 seconds
+[2018.07.14-17.54.03:757][  0]LogFileCache: Scanning file cache for directory 'D:/BrainsEden/BrainsEden2018/HotAsIce/Saved/Collections/' took 0.01s
+[2018.07.14-17.54.03:757][  0]LogFileCache: Scanning file cache for directory 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/Developers/jenni/Collections/' took 0.01s
+[2018.07.14-17.54.03:757][  0]LogFileCache: Scanning file cache for directory 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/Collections/' took 0.01s
+[2018.07.14-17.54.03:757][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.14-17.54.03:766][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2452 classes and 558 folders.
+[2018.07.14-17.54.03:773][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.14-17.54.03:838][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.14-17.54.03:843][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.07.14-17.54.03:853][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2018.07.14-17.54.03:919][  0]LogSlate: Took 0.000388 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.14-17.54.03:922][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.14-17.54.03:933][  0]LogSlate: Took 0.000449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.14-17.54.04:035][  0]LogRenderer: Reallocating scene render targets to support 1128x516 Format 10 NumSamples 1 (Frame:1).
+[2018.07.14-17.54.04:188][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.14-17.54.04:188][  0]LogLoad: (Engine Initialization) Total time: 12.62 seconds
+[2018.07.14-17.54.04:188][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.14-17.54.04:205][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.14-17.54.04:225][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.14-17.54.04:262][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.14-17.54.04:286][  1]LogAssetRegistry: Asset discovery search completed in 6.9182 seconds
+[2018.07.14-17.54.04:287][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.14-17.54.04:287][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2018.07.14-17.54.05:217][ 56]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.14-17.54.06:318][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-17.54.06:540][134]LogMaterial: Missing cached shader map for material BasicColor_Master_Material, compiling. 
+[2018.07.14-17.54.06:632][134]LogMaterial: Missing cached shader map for material BasicColor_Master_Material, compiling. 
+[2018.07.14-17.54.06:657][134]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.07.14-17.54.06:657][134]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.07.14-17.54.06:657][134]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.07.14-17.54.06:657][134]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.07.14-17.54.07:302][135]LogRenderer: Reallocating scene render targets to support 1128x624 Format 10 NumSamples 1 (Frame:1).
+[2018.07.14-17.54.10:121][296]LogShaderCompilers: Display: Shaders left to compile 118
+[2018.07.14-17.54.10:321][308]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.07.14-17.54.10:638][327]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.07.14-17.54.10:684][330]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.07.14-17.54.12:703][450]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.07.14-17.54.12:973][466]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.07.14-17.54.13:103][474]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.07.14-17.54.13:619][505]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.07.14-17.54.15:583][621]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.07.14-17.54.16:215][659]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.14-17.54.16:248][661]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.14-17.54.16:752][691]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.14-17.55.06:908][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-17.55.06:992][692]LogSlate: Window 'pepper' being destroyed
+[2018.07.14-17.55.06:998][692]LogSlate: Window 'pepper' being destroyed
+[2018.07.14-17.55.11:465][950]LogMaterial: Missing cached shader map for material BasicColor_Master_Material, compiling. 
+[2018.07.14-17.55.11:506][950]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.07.14-17.55.11:506][950]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.07.14-17.55.11:506][950]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.07.14-17.55.11:506][950]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.07.14-17.55.11:519][950]LogAIModule: Creating AISystem for world BasicLevel
+[2018.07.14-17.55.11:539][950]Cmd: MAP LOAD FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Maps/BasicLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.14-17.55.11:539][950]LightingResults: New page: Lighting Build
+[2018.07.14-17.55.11:540][950]LoadErrors: New page: Loading map: BasicLevel.umap
+[2018.07.14-17.55.11:541][950]MapCheck: New page: Map Check
+[2018.07.14-17.55.11:541][950]LightingResults: New page: Lighting Build
+[2018.07.14-17.55.11:621][950]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.14-17.55.11:652][950]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.14-17.55.11:722][950]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70,245ms to complete.
+[2018.07.14-17.55.11:722][950]LogFileHelpers: Loading map 'BasicLevel' took 0.184
+[2018.07.14-17.55.14:465][113]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.07.14-17.55.14:714][128]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.07.14-17.55.15:033][147]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.07.14-17.55.15:166][155]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.14-17.55.38:854][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cone2)
+[2018.07.14-17.55.59:767][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2018.07.14-17.56.07:289][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-18.05.12:036][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BasicLevel" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Maps/BasicLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.14-18.05.12:105][983]LogSavePackage: Save=63.75ms
+[2018.07.14-18.05.12:105][983]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/BasicLevel_Auto116B698924D0EBA12D17301A87C24A39E.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Maps/BasicLevel_Auto1.umap'
+[2018.07.14-18.05.12:107][983]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Maps/BasicLevel_Auto1.umap
+[2018.07.14-18.05.12:110][983]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BasicLevel' took 0.088
+[2018.07.14-18.05.12:110][983]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.088
+[2018.07.14-20.21.55:416][474]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/IceCreamCone.fbx)
+[2018.07.14-20.21.55:467][474]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.14-20.21.55:467][474]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.14-20.21.55:467][474]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.14-20.21.55:467][474]LogFbx: ItemName: NodeAttribute, ItemCount : 23
+[2018.07.14-20.21.55:467][474]LogFbx: ItemName: Model, ItemCount : 24
+[2018.07.14-20.21.55:467][474]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.07.14-20.21.55:467][474]LogFbx: ItemName: Material, ItemCount : 6
+[2018.07.14-20.21.55:467][474]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
+[2018.07.14-20.21.55:467][474]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2018.07.14-20.21.55:467][474]LogFbx: ItemName: AnimationCurve, ItemCount : 60
+[2018.07.14-20.21.55:467][474]LogFbx: ItemName: Pose, ItemCount : 1
+[2018.07.14-20.21.55:467][474]LogFbx: ItemName: Deformer, ItemCount : 24
+[2018.07.14-20.21.55:474][474]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/IceCreamCone.fbx
+[2018.07.14-20.21.55:514][474]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.14-20.22.07:125][474]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.14-20.22.07:162][474]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/IceCreamCone.fbx
+[2018.07.14-20.22.07:183][474]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.14-20.22.07:259][474]LogFbx: =================================================
+[2018.07.14-20.22.07:259][474]LogFbx: Dumping Node START [Cone] 
+[2018.07.14-20.22.07:259][474]LogFbx: 	Total Deformer Count -148423808.
+[2018.07.14-20.22.07:259][474]LogFbx: 		[Node 1]  (Type Skin).
+[2018.07.14-20.22.07:259][474]LogFbx: =================================================
+[2018.07.14-20.22.07:259][474]LogFbx: 	Attribute () Type (4).
+[2018.07.14-20.22.07:259][474]LogFbx: 		[Node Attribute Child 1] Cone (Type Mesh).
+[2018.07.14-20.22.07:259][474]LogFbx: Dumping Node END [Cone]
+[2018.07.14-20.22.07:259][474]LogFbx: =================================================
+[2018.07.14-20.22.07:259][474]LogFbx: Dumping Node START [Cone] 
+[2018.07.14-20.22.07:259][474]LogFbx: 	Total Deformer Count -148423808.
+[2018.07.14-20.22.07:259][474]LogFbx: 		[Node 1]  (Type Skin).
+[2018.07.14-20.22.07:260][474]LogFbx: =================================================
+[2018.07.14-20.22.07:260][474]LogFbx: 	Attribute () Type (4).
+[2018.07.14-20.22.07:260][474]LogFbx: 		[Node Attribute Child 1] Cone (Type Mesh).
+[2018.07.14-20.22.07:260][474]LogFbx: Dumping Node END [Cone]
+[2018.07.14-20.22.07:261][474]LogFbx: Valid bind pose for Pose (skinCluster1) - Cone
+[2018.07.14-20.22.07:269][474]FBXImport: Error: Error, Could not import Cone.
+Duplicate bone name found ('PH_Jnt'). Each bone must have a unique name. 
+[2018.07.14-20.22.07:269][474]FBXImport: Error: Multiple roots found 
+[2018.07.14-20.22.07:269][474]FBXImport: Warning: Get Import Data has failed. 
+[2018.07.14-20.22.07:269][474]FBXImport: Error: Import failed. 
+[2018.07.14-20.22.16:407][474]LogSlate: Window 'Message' being destroyed
+[2018.07.14-20.22.16:413][474]LogAssetTools: Warning: Failed to import '../../../../../../BrainsEden/characters/IceCreamCone.fbx'. Failed to create asset '/Game/Art_Assets/Rigs/IceCreamCone'.
+Please see Output Log for details.
+[2018.07.14-20.22.19:515][652]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BasicLevel' took 0.014
+[2018.07.14-20.22.19:522][652]LogSavePackage: Save=2.21ms
+[2018.07.14-20.22.19:522][652]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/IceCreamCone_Auto2BA3EF8D84F0CA440C8CA7982CE2D06A9.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/IceCreamCone_Auto2.uasset'
+[2018.07.14-20.22.19:524][652]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/IceCreamCone_Auto2.uasset
+[2018.07.14-20.22.19:524][652]LogFileHelpers: Auto-saving content packages took 0.009
+[2018.07.14-20.22.23:193][871]LogSlate: Window 'Message Log' being destroyed
+[2018.07.14-20.22.23:198][871]LogSlate: Window 'Message Log' being destroyed
+[2018.07.14-20.23.46:943][379]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/IceCreamCone.fbx)
+[2018.07.14-20.23.46:952][379]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.14-20.23.46:952][379]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.14-20.23.46:952][379]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.14-20.23.46:952][379]LogFbx: ItemName: NodeAttribute, ItemCount : 23
+[2018.07.14-20.23.46:952][379]LogFbx: ItemName: Model, ItemCount : 24
+[2018.07.14-20.23.46:952][379]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.07.14-20.23.46:952][379]LogFbx: ItemName: Material, ItemCount : 6
+[2018.07.14-20.23.46:952][379]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
+[2018.07.14-20.23.46:952][379]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2018.07.14-20.23.46:952][379]LogFbx: ItemName: AnimationCurve, ItemCount : 60
+[2018.07.14-20.23.46:952][379]LogFbx: ItemName: Pose, ItemCount : 1
+[2018.07.14-20.23.46:952][379]LogFbx: ItemName: Deformer, ItemCount : 24
+[2018.07.14-20.23.46:957][379]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/IceCreamCone.fbx
+[2018.07.14-20.23.46:983][379]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.14-20.23.48:467][379]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.14-20.23.48:499][379]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/IceCreamCone.fbx
+[2018.07.14-20.23.48:519][379]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.14-20.23.48:520][379]LogFbx: =================================================
+[2018.07.14-20.23.48:520][379]LogFbx: Dumping Node START [Cone] 
+[2018.07.14-20.23.48:520][379]LogFbx: 	Total Deformer Count -651413136.
+[2018.07.14-20.23.48:520][379]LogFbx: 		[Node 1]  (Type Skin).
+[2018.07.14-20.23.48:520][379]LogFbx: =================================================
+[2018.07.14-20.23.48:520][379]LogFbx: 	Attribute () Type (4).
+[2018.07.14-20.23.48:520][379]LogFbx: 		[Node Attribute Child 1] Cone (Type Mesh).
+[2018.07.14-20.23.48:520][379]LogFbx: Dumping Node END [Cone]
+[2018.07.14-20.23.48:520][379]LogFbx: =================================================
+[2018.07.14-20.23.48:520][379]LogFbx: Dumping Node START [Cone] 
+[2018.07.14-20.23.48:520][379]LogFbx: 	Total Deformer Count -651413136.
+[2018.07.14-20.23.48:520][379]LogFbx: 		[Node 1]  (Type Skin).
+[2018.07.14-20.23.48:521][379]LogFbx: =================================================
+[2018.07.14-20.23.48:521][379]LogFbx: 	Attribute () Type (4).
+[2018.07.14-20.23.48:521][379]LogFbx: 		[Node Attribute Child 1] Cone (Type Mesh).
+[2018.07.14-20.23.48:521][379]LogFbx: Dumping Node END [Cone]
+[2018.07.14-20.23.48:521][379]LogFbx: Valid bind pose for Pose (skinCluster1) - Cone
+[2018.07.14-20.23.48:574][379]LogFbx: Triangulating skeletal mesh Cone
+[2018.07.14-20.23.48:687][379]LogFbx: Warning: Bones digested - 23  Depth of hierarchy - 17
+[2018.07.14-20.23.48:783][379]LogSkeletalMesh: Section 0: 928 vertices, 3 active bones
+[2018.07.14-20.23.48:783][379]LogSkeletalMesh: Section 1: 188 vertices, 1 active bones
+[2018.07.14-20.23.48:783][379]LogSkeletalMesh: Section 2: 224 vertices, 3 active bones
+[2018.07.14-20.23.48:783][379]LogSkeletalMesh: Section 3: 611 vertices, 3 active bones
+[2018.07.14-20.23.48:784][379]LogSkeletalMesh: Section 4: 178 vertices, 1 active bones
+[2018.07.14-20.23.48:784][379]LogSkeletalMesh: Section 5: 424 vertices, 3 active bones
+[2018.07.14-20.23.48:785][379]LogSkeletalMesh: Section 0: Material=0, 1372 triangles
+[2018.07.14-20.23.48:785][379]LogSkeletalMesh: Section 1: Material=1, 302 triangles
+[2018.07.14-20.23.48:785][379]LogSkeletalMesh: Section 2: Material=2, 368 triangles
+[2018.07.14-20.23.48:785][379]LogSkeletalMesh: Section 3: Material=3, 928 triangles
+[2018.07.14-20.23.48:785][379]LogSkeletalMesh: Section 4: Material=4, 240 triangles
+[2018.07.14-20.23.48:785][379]LogSkeletalMesh: Section 5: Material=5, 480 triangles
+[2018.07.14-20.23.48:787][379]LogSkeletalMesh: Building Skeletal Mesh IceCreamCone...
+[2018.07.14-20.23.48:818][379]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Art_Assets/Rigs/IceCreamCone.IceCreamCone
+[2018.07.14-20.23.48:821][379]LogLinker: Can't find file '/Game/Art_Assets/Rigs/IceCreamCone_Skeleton'
+[2018.07.14-20.23.48:821][379]LogLinker: Can't find file '/Game/Art_Assets/Rigs/IceCreamCone_Skeleton'
+[2018.07.14-20.23.48:830][379]LogLinker: Can't find file '/Game/Art_Assets/Rigs/IceCreamCone_PhysicsAsset'
+[2018.07.14-20.23.48:831][379]LogLinker: Can't find file '/Game/Art_Assets/Rigs/IceCreamCone_PhysicsAsset'
+[2018.07.14-20.23.48:899][379]LogSkeletalMesh: Building Skeletal Mesh IceCreamCone...
+[2018.07.14-20.23.48:902][379]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Art_Assets/Rigs/IceCreamCone.IceCreamCone
+[2018.07.14-20.23.59:374][997]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.07.14-20.23.59:521][997]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.07.14-20.23.59:567][997]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2018.07.14-20.23.59:861][997]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.07.14-20.24.00:703][997]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0014 seconds. Added 1 classes and 0 folders.
+[2018.07.14-20.24.10:807][440]LogRenderer: Reallocating scene render targets to support 1128x632 Format 10 NumSamples 1 (Frame:108).
+[2018.07.14-20.24.15:065][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2018.07.14-20.24.16:153][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-20.24.26:372][132]LogSkeletalMesh: Building Skeletal Mesh IceCreamCone...
+[2018.07.14-20.24.26:376][132]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Art_Assets/Rigs/IceCreamCone.IceCreamCone
+[2018.07.14-20.24.26:376][132]LogMaterial: Warning: Material /Game/Materials/Gradient_Master_MAT.Gradient_Master_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2018.07.14-20.24.26:380][132]LogMaterial: Missing cached shader map for material Gradient_Master_MAT, compiling. 
+[2018.07.14-20.24.26:402][132]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.07.14-20.24.26:402][132]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.07.14-20.24.26:402][132]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.07.14-20.24.26:402][132]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.07.14-20.24.29:232][236]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.07.14-20.24.29:797][256]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.14-20.24.41:870][908]LogSkeletalMesh: Building Skeletal Mesh IceCreamCone...
+[2018.07.14-20.24.41:874][908]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Art_Assets/Rigs/IceCreamCone.IceCreamCone
+[2018.07.14-20.24.44:870][ 70]LogSkeletalMesh: Building Skeletal Mesh IceCreamCone...
+[2018.07.14-20.24.44:875][ 70]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Art_Assets/Rigs/IceCreamCone.IceCreamCone
+[2018.07.14-20.24.47:440][210]LogSkeletalMesh: Building Skeletal Mesh IceCreamCone...
+[2018.07.14-20.24.47:444][210]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Art_Assets/Rigs/IceCreamCone.IceCreamCone
+[2018.07.14-20.24.52:061][461]LogSkeletalMesh: Building Skeletal Mesh IceCreamCone...
+[2018.07.14-20.24.52:064][461]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Art_Assets/Rigs/IceCreamCone.IceCreamCone
+[2018.07.14-20.24.55:250][631]LogSkeletalMesh: Building Skeletal Mesh IceCreamCone...
+[2018.07.14-20.24.55:254][631]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Art_Assets/Rigs/IceCreamCone.IceCreamCone
+[2018.07.14-20.25.10:784][483]LogSkeletalMesh: Building Skeletal Mesh IceCreamCone...
+[2018.07.14-20.25.10:788][483]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Art_Assets/Rigs/IceCreamCone.IceCreamCone
+[2018.07.14-20.25.10:789][483]LogMaterial: Warning: Material /Game/Materials/BasicColor_Master_Material.BasicColor_Master_Material needed to have new flag set bUsedWithSkeletalMesh !
+[2018.07.14-20.25.10:792][483]LogMaterial: Missing cached shader map for material BasicColor_Master_Material, compiling. 
+[2018.07.14-20.25.10:827][483]LogMaterial: Missing cached shader map for material BasicColor_Master_Material, compiling. 
+[2018.07.14-20.25.10:865][483]LogShaderCompilers: Display: Shaders left to compile 117
+[2018.07.14-20.25.10:865][483]LogShaderCompilers: Display: Shaders left to compile 107
+[2018.07.14-20.25.10:865][483]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.07.14-20.25.10:865][483]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.07.14-20.25.10:865][483]LogMaterial: Missing cached shader map for material BasicColor_Master_Material, compiling. 
+[2018.07.14-20.25.14:608][622]LogShaderCompilers: Display: Shaders left to compile 311
+[2018.07.14-20.25.14:949][635]LogShaderCompilers: Display: Shaders left to compile 301
+[2018.07.14-20.25.15:442][654]LogShaderCompilers: Display: Shaders left to compile 291
+[2018.07.14-20.25.15:467][655]LogShaderCompilers: Display: Shaders left to compile 281
+[2018.07.14-20.25.17:699][731]LogShaderCompilers: Display: Shaders left to compile 271
+[2018.07.14-20.25.18:154][748]LogShaderCompilers: Display: Shaders left to compile 261
+[2018.07.14-20.25.18:361][756]LogShaderCompilers: Display: Shaders left to compile 251
+[2018.07.14-20.25.19:116][783]LogShaderCompilers: Display: Shaders left to compile 241
+[2018.07.14-20.25.21:405][866]LogShaderCompilers: Display: Shaders left to compile 231
+[2018.07.14-20.25.21:802][881]LogShaderCompilers: Display: Shaders left to compile 221
+[2018.07.14-20.25.21:877][884]LogShaderCompilers: Display: Shaders left to compile 211
+[2018.07.14-20.25.22:820][918]LogShaderCompilers: Display: Shaders left to compile 201
+[2018.07.14-20.25.25:131][  6]LogShaderCompilers: Display: Shaders left to compile 191
+[2018.07.14-20.25.25:493][ 18]LogShaderCompilers: Display: Shaders left to compile 181
+[2018.07.14-20.25.25:881][ 32]LogShaderCompilers: Display: Shaders left to compile 171
+[2018.07.14-20.25.26:042][ 38]LogShaderCompilers: Display: Shaders left to compile 161
+[2018.07.14-20.25.28:473][127]LogShaderCompilers: Display: Shaders left to compile 151
+[2018.07.14-20.25.29:255][154]LogShaderCompilers: Display: Shaders left to compile 141
+[2018.07.14-20.25.29:391][159]LogShaderCompilers: Display: Shaders left to compile 131
+[2018.07.14-20.25.29:563][165]LogShaderCompilers: Display: Shaders left to compile 121
+[2018.07.14-20.25.30:158][187]LogSkeletalMesh: Building Skeletal Mesh IceCreamCone...
+[2018.07.14-20.25.30:163][187]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Art_Assets/Rigs/IceCreamCone.IceCreamCone
+[2018.07.14-20.25.32:125][256]LogShaderCompilers: Display: Shaders left to compile 111
+[2018.07.14-20.25.32:583][273]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.07.14-20.25.32:634][275]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.07.14-20.25.33:352][297]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.07.14-20.25.35:732][384]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.07.14-20.25.36:008][395]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.07.14-20.25.36:282][406]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.07.14-20.25.37:109][408]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.07.14-20.25.37:889][436]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.07.14-20.25.39:390][496]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.07.14-20.25.39:613][505]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.14-20.25.39:979][520]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.14-20.26.05:048][868]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (IceCreamCone)
+[2018.07.14-20.26.05:842][914]Cmd: DELETE
+[2018.07.14-20.26.05:842][914]Cmd: ACTOR DELETE
+[2018.07.14-20.26.05:847][914]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.07.14-20.26.05:859][914]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.07.14-20.26.07:392][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-20.26.07:516][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BasicLevel" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Maps/BasicLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.14-20.26.07:593][ 10]LogSavePackage: Save=61.12ms
+[2018.07.14-20.26.07:593][ 10]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/BasicLevelCAFE89244C593C3FC4F0018AFAB448C6.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Maps/BasicLevel.umap'
+[2018.07.14-20.26.07:597][ 10]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Maps/BasicLevel.umap
+[2018.07.14-20.26.09:975][ 92]LogSlate: Window 'Save Content' being destroyed
+[2018.07.14-20.26.10:006][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/Rigs/IceCreamCone" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCreamCone.uasset" SILENT=true
+[2018.07.14-20.26.10:024][ 92]LogSavePackage: Save=16.11ms
+[2018.07.14-20.26.10:024][ 92]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/IceCreamCone429C444443730145ECCAE488B0A2AC45.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCreamCone.uasset'
+[2018.07.14-20.26.10:029][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCreamCone.uasset
+[2018.07.14-20.26.10:065][ 92]LogSavePackage: Save=12.16ms
+[2018.07.14-20.26.10:065][ 92]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/IceCreamCone_PhysicsAssetD5A52E99475987449CE966A70206BCF5.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCreamCone_PhysicsAsset.uasset'
+[2018.07.14-20.26.10:069][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCreamCone_PhysicsAsset.uasset
+[2018.07.14-20.26.10:076][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/Rigs/IceCreamCone_Skeleton" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCreamCone_Skeleton.uasset" SILENT=true
+[2018.07.14-20.26.10:081][ 92]LogSavePackage: Save=2.07ms
+[2018.07.14-20.26.10:081][ 92]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/IceCreamCone_Skeleton00D585A747ABBBDAEDE7B4B9FBF674AE.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCreamCone_Skeleton.uasset'
+[2018.07.14-20.26.10:085][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCreamCone_Skeleton.uasset
+[2018.07.14-20.26.10:104][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/BasicColor_Master_Material" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/BasicColor_Master_Material.uasset" SILENT=true
+[2018.07.14-20.26.10:123][ 92]LogSavePackage: Save=14.35ms
+[2018.07.14-20.26.10:123][ 92]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/BasicColor_Master_Material442F44CF407A5078BABD1BBEE0BA4299.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/BasicColor_Master_Material.uasset'
+[2018.07.14-20.26.10:128][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/BasicColor_Master_Material.uasset
+[2018.07.14-20.26.10:144][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Cone" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/Cone.uasset" SILENT=true
+[2018.07.14-20.26.10:162][ 92]LogSavePackage: Save=11.84ms
+[2018.07.14-20.26.10:162][ 92]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/ConeD74802524C518BD3ED83CDA7E01A4982.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/Cone.uasset'
+[2018.07.14-20.26.10:166][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/Cone.uasset
+[2018.07.14-20.26.10:187][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Gradient_Master_MAT" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/Gradient_Master_MAT.uasset" SILENT=true
+[2018.07.14-20.26.10:208][ 92]LogSavePackage: Save=14.38ms
+[2018.07.14-20.26.10:208][ 92]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Gradient_Master_MAT2AFD9E52459022E01B9D9982DBD7AA2D.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/Gradient_Master_MAT.uasset'
+[2018.07.14-20.26.10:214][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/Gradient_Master_MAT.uasset
+[2018.07.14-20.26.10:227][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PepperPupil1" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/PepperPupil1.uasset" SILENT=true
+[2018.07.14-20.26.10:245][ 92]LogSavePackage: Save=11.38ms
+[2018.07.14-20.26.10:245][ 92]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperPupil1951D114B4475D118661FD59849FDE074.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/PepperPupil1.uasset'
+[2018.07.14-20.26.10:249][ 92]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Materials/PepperPupil1.uasset
