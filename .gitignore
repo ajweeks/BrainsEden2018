@@ -1,3 +1,6 @@
+
+
+*.bin
 # Visual Studio 2015 user specific files
 HotAsIce/.vs/
 
@@ -56,12 +59,12 @@ HotAsIce/Plugins/*/Binaries/*
 HotAsIce/Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
-!HotAsIce/Build/*/
-HotAsIce/Build/*/**
-!HotAsIce/Build/*/PakBlacklist*.txt
+#!HotAsIce/Build/*/
+#HotAsIce/Build/*/**
+#!HotAsIce/Build/*/PakBlacklist*.txt
 
 # Don't ignore icon files in Build
-!HotAsIce/Build/**/*.ico
+#!HotAsIce/Build/**/*.ico
 
 # Built data for maps
 *_BuiltData.uasset
