@@ -1,4 +1,4 @@
-﻿Log file open, 07/14/18 09:00:56
+﻿Log file open, 07/14/18 14:18:15
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,14 +7,14 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: HotAsIce
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-976670756) SRandInit(-976670756).
+LogInit: Display: RandInit(976917735) SRandInit(976917735).
 LogInit: Read version file with build ID '3944462'
-LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.301760
+LogStats: Stats thread started at 0.319859
 LogD3D11RHI: Aftermath initialized
-LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.107s to configure plugins.
+LogStreaming: Display: Took  3.242s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -188,7 +188,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am DESKTOP-KGIDTQ7 (10.50.4.25:0)
+LogInit: WinSock: I am FriedelsLaptop (10.50.2.10:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -212,196 +212,503 @@ LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
 LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
-LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line: -EpicPortal 
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Command Line:  
+LogInit: Base Directory: E:/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.14-08.00.58:140][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.14-08.00.58:140][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.14-08.00.58:155][  0]LogInit: Computer: DESKTOP-KGIDTQ7
-[2018.07.14-08.00.58:156][  0]LogInit: User: ajwee
-[2018.07.14-08.00.58:156][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.07.14-08.00.58:156][  0]LogInit: High frequency timer resolution =2.533208 MHz
-[2018.07.14-08.00.58:156][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.07.14-08.00.58:156][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.14-08.00.58:156][  0]LogMemory: Process Physical Memory: 274.43 MB used, 274.43 MB peak
-[2018.07.14-08.00.58:156][  0]LogMemory: Process Virtual Memory: 264.77 MB used, 264.77 MB peak
-[2018.07.14-08.00.58:156][  0]LogMemory: Physical Memory: 10630.97 MB used,  5665.30 MB free, 16296.27 MB total
-[2018.07.14-08.00.58:156][  0]LogMemory: Virtual Memory: 4789.42 MB used,  5665.30 MB free, 134217728.00 MB total
-[2018.07.14-08.00.58:179][  0]LogInit: Using OS detected language (en-GB).
-[2018.07.14-08.00.58:179][  0]LogInit: Using OS detected locale (en-CA).
-[2018.07.14-08.00.58:184][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.07.14-08.00.58:832][  0]LogStreaming: Display: Took  0.653s to EndInitTextLocalization.
-[2018.07.14-08.00.58:833][  0]LogInit: Setting process to per monitor DPI aware
-[2018.07.14-08.00.58:886][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.14-08.00.58:886][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.14-08.00.59:213][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.14-08.00.59:273][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2018.07.14-08.00.59:273][  0]LogD3D11RHI:       4055/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.07.14-08.00.59:282][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2018.07.14-08.00.59:282][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.07.14-08.00.59:284][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.14-08.00.59:284][  0]LogD3D11RHI:       0/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.14-08.00.59:284][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.14-08.00.59:308][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.14-08.00.59:308][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2018.07.14-08.00.59:308][  0]LogWindows: EnumDisplayDevices:
-[2018.07.14-08.00.59:309][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2018.07.14-08.00.59:310][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.07.14-08.00.59:311][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.07.14-08.00.59:312][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.14-08.00.59:312][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2018.07.14-08.00.59:312][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.14-08.00.59:312][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.14-08.00.59:312][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
-[2018.07.14-08.00.59:386][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.14-08.00.59:387][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.14-08.00.59:387][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.14-08.00.59:409][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.07.14-08.00.59:411][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (D:/MEGASync/Code/DutyAtEden/HotAsIce/Intermediate/Shaders/WorkingDirectory/13584/).
-[2018.07.14-08.00.59:412][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ajwee/AppData/Local/Temp/UnrealShaderWorkingDir/50CF55FA489A9A73319DA09314CCB297/'.
-[2018.07.14-08.00.59:750][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.07.14-08.00.59:769][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.07.14-08.00.59:788][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.07.14-08.00.59:805][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.07.14-08.00.59:823][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.07.14-08.00.59:842][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.14-08.00.59:861][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.14-08.00.59:884][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.14-08.00.59:893][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.14-08.00.59:917][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.07.14-08.00.59:936][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.07.14-08.00.59:955][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.07.14-08.00.59:976][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.07.14-08.00.59:994][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.07.14-08.01.00:011][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.07.14-08.01.00:045][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.07.14-08.01.00:045][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.07.14-08.01.00:061][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.07.14-08.01.00:062][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.07.14-08.01.00:104][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.07.14-08.01.00:121][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.07.14-08.01.00:141][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.07.14-08.01.00:163][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.07.14-08.01.00:182][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.07.14-08.01.00:200][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.07.14-08.01.00:200][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.14-08.01.00:352][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.07.14-08.01.00:353][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.07.14-08.01.00:353][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.14-08.01.01:294][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.14-08.01.01:377][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/ajwee/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.14-08.01.01:377][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ajwee/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.07.14-08.01.01:378][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/MEGASync/Code/DutyAtEden/HotAsIce/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.14-08.01.01:378][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.14-08.01.01:378][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/MEGASync/Code/DutyAtEden/HotAsIce/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.14-08.01.01:378][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.14-08.01.01:400][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.14-08.01.01:413][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ajwee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.14-08.01.01:413][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.07.14-08.01.01:413][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.07.14-08.01.01:428][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.14-08.01.01:428][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.14-08.01.01:429][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.14-08.01.01:429][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.14-08.01.01:593][  0]LogAssetRegistry: FAssetRegistry took 0.0303 seconds to start up
-[2018.07.14-08.01.02:032][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.14-08.01.02:237][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.14-08.01.02:240][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.14-08.01.02:240][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.14-08.01.02:240][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.14-08.01.02:240][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.14-08.01.02:240][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.14-08.01.02:274][  0]LogNetVersion: HotAsIce , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 389168531)
-[2018.07.14-08.01.02:879][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.099624 seconds
-[2018.07.14-08.01.02:887][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.07.14-08.01.02:887][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.07.14-08.01.02:887][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.14-08.01.05:117][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.14-08.01.05:148][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.14-08.01.05:631][  0]SourceControl: Source control is disabled
-[2018.07.14-08.01.05:632][  0]SourceControl: Source control is disabled
-[2018.07.14-08.01.05:654][  0]SourceControl: Source control is disabled
-[2018.07.14-08.01.05:677][  0]SourceControl: Source control is disabled
-[2018.07.14-08.01.06:319][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.14-08.01.06:522][  0]LogOcInput: OculusInput pre-init called
-[2018.07.14-08.01.06:667][  0]LogEngine: Initializing Engine...
-[2018.07.14-08.01.06:668][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.07.14-08.01.06:670][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.14-08.01.06:670][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.14-08.01.06:957][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.07.14-08.01.06:985][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.14-08.01.07:035][  0]LogInit: FAudioDevice initialized.
-[2018.07.14-08.01.07:464][  0]LogDerivedDataCache: Saved boot cache 0.43s 74MB C:/Users/ajwee/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.14-08.01.07:484][  0]LogInit: Texture streaming: Enabled
-[2018.07.14-08.01.07:506][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.07.14-08.01.07:529][  0]LogInit: Transaction tracking system initialized
-[2018.07.14-08.01.07:558][  0]BlueprintLog: New page: Editor Load
-[2018.07.14-08.01.07:658][  0]LocalizationService: Localization service is disabled
-[2018.07.14-08.01.07:789][  0]LogConsoleResponse: Display: 
-[2018.07.14-08.01.07:978][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.07.14-08.01.07:978][  0]LogFileCache: Scanning file cache for directory 'D:/MEGASync/Code/DutyAtEden/HotAsIce/Content/' took 0.01s
-[2018.07.14-08.01.07:978][  0]LogCook: Display: Mobile HDR setting 1
-[2018.07.14-08.01.07:978][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.14-08.01.07:978][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.14-08.01.07:978][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.14-08.01.08:425][  0]SourceControl: Source control is disabled
-[2018.07.14-08.01.08:425][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.14-08.01.08:426][  0]LightingResults: New page: Lighting Build
-[2018.07.14-08.01.08:429][  0]MapCheck: New page: Map Check
-[2018.07.14-08.01.08:429][  0]LightingResults: New page: Lighting Build
-[2018.07.14-08.01.08:690][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.07.14-08.01.08:697][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.14-08.01.08:711][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.14-08.01.08:781][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.828ms to complete.
-[2018.07.14-08.01.08:782][  0]LogFileHelpers: Loading map 'Template_Default' took 0.356
-[2018.07.14-08.01.10:538][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.07.14-08.01.10:698][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.HotAsIce
-[2018.07.14-08.01.10:698][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.07.14-08.01.10:698][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.07.14-08.01.10:698][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.07.14-08.01.10:698][  0]LogTemp: BranchPath = DESKTOP-KGIDTQ7/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-KGIDTQ7/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.07.14-08.01.10:698][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\ajwee\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.07.14-08.01.10:698][  0]LogCollectionManager: Loaded 0 collections in 0.002425 seconds
-[2018.07.14-08.01.10:742][  0]LogFileCache: Scanning file cache for directory 'D:/MEGASync/Code/DutyAtEden/HotAsIce/Saved/Collections/' took 0.01s
-[2018.07.14-08.01.10:742][  0]LogFileCache: Scanning file cache for directory 'D:/MEGASync/Code/DutyAtEden/HotAsIce/Content/Developers/ajwee/Collections/' took 0.01s
-[2018.07.14-08.01.10:742][  0]LogFileCache: Scanning file cache for directory 'D:/MEGASync/Code/DutyAtEden/HotAsIce/Content/Collections/' took 0.01s
-[2018.07.14-08.01.10:742][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.07.14-08.01.10:754][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2452 classes and 558 folders.
-[2018.07.14-08.01.10:764][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.07.14-08.01.11:269][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.07.14-08.01.11:281][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.07.14-08.01.11:375][  0]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.07.14-08.01.11:382][  0]LogSlate: Took 0.000410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.07.14-08.01.11:396][  0]LogSlate: Took 0.008124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.07.14-08.01.11:619][  0]LogRenderer: Reallocating scene render targets to support 1004x664 Format 9 NumSamples 1 (Frame:1).
-[2018.07.14-08.01.11:850][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.07.14-08.01.11:851][  0]LogLoad: (Engine Initialization) Total time: 16.43 seconds
-[2018.07.14-08.01.11:851][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.14-08.01.12:222][  0]LogContentStreaming: Texture pool size now 800 MB
-[2018.07.14-08.01.12:272][  0]LogSlate: Took 0.006433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.14-08.01.12:542][  1]LogAssetRegistry: Asset discovery search completed in 10.9724 seconds
-[2018.07.14-08.01.12:544][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.07.14-08.01.12:545][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
-[2018.07.14-08.01.16:248][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.14-08.01.16:365][345]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.14-08.01.16:382][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.14-08.01.16:386][345]PIE: New page: PIE session: Untitled_1 (Jul 14, 2018, 10:01:16 AM)
-[2018.07.14-08.01.16:386][345]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.07.14-08.01.16:390][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003206s)
-[2018.07.14-08.01.16:390][345]LogAIModule: Creating AISystem for world Untitled_1
-[2018.07.14-08.01.16:391][345]LogPlayLevel: PIE: World Init took: (0.000851s)
-[2018.07.14-08.01.16:391][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004294s)
-[2018.07.14-08.01.16:411][345]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.14-08.01.16:428][345]LogInit: FAudioDevice initialized.
-[2018.07.14-08.01.16:476][345]LogLoad: Game class is 'GameModeBase'
-[2018.07.14-08.01.16:478][345]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.14-09.01.16
-[2018.07.14-08.01.16:479][345]LogWorld: Bringing up level for play took: 0.000717
-[2018.07.14-08.01.16:483][345]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.07.14-08.01.16:484][345]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.078
+[2018.07.14-12.18.20:278][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.14-12.18.20:278][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.14-12.18.20:427][  0]LogInit: Computer: FRIEDELSLAPTOP
+[2018.07.14-12.18.20:427][  0]LogInit: User: Friedel
+[2018.07.14-12.18.20:427][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.14-12.18.20:427][  0]LogInit: High frequency timer resolution =2.435775 MHz
+[2018.07.14-12.18.20:435][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.07.14-12.18.20:436][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.14-12.18.20:436][  0]LogMemory: Process Physical Memory: 274.32 MB used, 274.32 MB peak
+[2018.07.14-12.18.20:436][  0]LogMemory: Process Virtual Memory: 265.02 MB used, 265.02 MB peak
+[2018.07.14-12.18.20:436][  0]LogMemory: Physical Memory: 6572.07 MB used,  9761.02 MB free, 16333.09 MB total
+[2018.07.14-12.18.20:436][  0]LogMemory: Virtual Memory: 659.79 MB used,  9761.02 MB free, 134217728.00 MB total
+[2018.07.14-12.18.21:300][  0]LogInit: Using OS detected language (nl-NL).
+[2018.07.14-12.18.21:300][  0]LogInit: Using OS detected locale (nl-NL).
+[2018.07.14-12.18.21:519][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2018.07.14-12.18.22:294][  0]LogStreaming: Display: Took  0.974s to EndInitTextLocalization.
+[2018.07.14-12.18.22:294][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.14-12.18.22:901][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.14-12.18.22:901][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.14-12.18.24:509][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.14-12.18.24:566][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
+[2018.07.14-12.18.24:567][  0]LogD3D11RHI:       4061/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.14-12.18.24:568][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.14-12.18.24:568][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.14-12.18.24:568][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.14-12.18.24:604][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.14-12.18.24:606][  0]LogD3D11RHI:     GPU DeviceId: 0x1617 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.14-12.18.24:606][  0]LogWindows: EnumDisplayDevices:
+[2018.07.14-12.18.24:606][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980M' (P:1 D:1)
+[2018.07.14-12.18.24:606][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2018.07.14-12.18.24:606][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2018.07.14-12.18.24:606][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2018.07.14-12.18.24:606][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.07.14-12.18.24:607][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
+[2018.07.14-12.18.24:607][  0]LogD3D11RHI:   Driver Version: 388.71 (internal:23.21.13.8871, unified:388.71)
+[2018.07.14-12.18.24:607][  0]LogD3D11RHI:      Driver Date: 12-15-2017
+[2018.07.14-12.18.24:607][  0]LogRHI: Texture pool is 2843 MB (70% of 4061 MB)
+[2018.07.14-12.18.24:632][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.14-12.18.24:632][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.14-12.18.24:632][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.14-12.18.24:918][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.07.14-12.18.25:074][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Intermediate/Shaders/WorkingDirectory/13504/).
+[2018.07.14-12.18.25:077][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Friedel/AppData/Local/Temp/UnrealShaderWorkingDir/02585551457F34AA389EBC8B59154607/'.
+[2018.07.14-12.18.26:082][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.14-12.18.26:110][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.14-12.18.26:135][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.14-12.18.26:152][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.14-12.18.26:196][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.14-12.18.26:220][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.14-12.18.26:233][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.14-12.18.26:247][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.14-12.18.26:255][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.14-12.18.26:276][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.14-12.18.26:305][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.14-12.18.26:323][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.14-12.18.26:349][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.14-12.18.26:371][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.14-12.18.26:396][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.14-12.18.26:434][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.14-12.18.26:434][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.14-12.18.26:483][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.14-12.18.26:500][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.14-12.18.26:612][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.14-12.18.26:635][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.14-12.18.26:656][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.14-12.18.26:669][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.14-12.18.26:701][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.14-12.18.26:716][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.14-12.18.26:716][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.14-12.18.27:427][  0]LogXGEController: Cleaning working directory: C:/Users/Friedel/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.14-12.18.27:428][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.14-12.18.27:450][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.14-12.18.27:450][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.14-12.18.29:391][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.14-12.18.29:617][  0]LogDerivedDataCache: Loaded boot cache 0.22s 74MB C:/Users/Friedel/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.14-12.18.29:617][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Friedel/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.14-12.18.29:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.14-12.18.29:617][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.14-12.18.29:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.14-12.18.29:617][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.14-12.18.29:717][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.14-12.18.29:732][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Friedel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.14-12.18.29:732][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.14-12.18.29:732][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.14-12.18.29:805][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.14-12.18.29:829][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.14-12.18.29:903][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.14-12.18.29:903][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.14-12.18.34:262][  0]LogAssetRegistry: FAssetRegistry took 0.0304 seconds to start up
+[2018.07.14-12.18.41:897][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.14-12.18.44:994][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.14-12.18.45:051][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.14-12.18.45:062][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.14-12.18.45:062][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.14-12.18.45:062][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.14-12.18.45:062][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.14-12.18.46:281][  0]LogNetVersion: HotAsIce , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 389168531)
+[2018.07.14-12.18.53:403][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.121002 seconds
+[2018.07.14-12.18.53:444][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.14-12.18.53:444][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.07.14-12.18.53:444][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.14-12.19.11:172][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.14-12.19.11:219][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.14-12.19.12:283][  0]SourceControl: Source control is disabled
+[2018.07.14-12.19.12:283][  0]SourceControl: Source control is disabled
+[2018.07.14-12.19.12:395][  0]SourceControl: Source control is disabled
+[2018.07.14-12.19.12:436][  0]SourceControl: Source control is disabled
+[2018.07.14-12.19.13:834][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.14-12.19.14:049][  0]LogOcInput: OculusInput pre-init called
+[2018.07.14-12.19.14:725][  0]LogEngine: Initializing Engine...
+[2018.07.14-12.19.14:769][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.14-12.19.14:785][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.14-12.19.14:785][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.14-12.19.15:396][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.14-12.19.15:591][  0]LogInit: XAudio2 using 'Oortelefoon van hoofdtelefoon (HyperX Virtual Surround Sound)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.14-12.19.15:616][  0]LogInit: FAudioDevice initialized.
+[2018.07.14-12.19.15:695][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/Friedel/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.14-12.19.15:704][  0]LogInit: Texture streaming: Enabled
+[2018.07.14-12.19.15:774][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.14-12.19.15:951][  0]LogInit: Transaction tracking system initialized
+[2018.07.14-12.19.16:291][  0]BlueprintLog: New page: Editor Load
+[2018.07.14-12.19.17:328][  0]LocalizationService: Localization service is disabled
+[2018.07.14-12.19.17:969][  0]LogConsoleResponse: Display: 
+[2018.07.14-12.19.19:203][  0]LogFileCache: Scanning file cache for directory 'E:/Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/' took 0.02s
+[2018.07.14-12.19.19:203][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.14-12.19.19:203][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.14-12.19.19:204][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.14-12.19.19:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.14-12.19.19:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.14-12.19.22:479][  0]SourceControl: Source control is disabled
+[2018.07.14-12.19.22:590][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.14-12.19.22:627][  0]LightingResults: New page: Lighting Build
+[2018.07.14-12.19.22:829][  0]MapCheck: New page: Map Check
+[2018.07.14-12.19.22:829][  0]LightingResults: New page: Lighting Build
+[2018.07.14-12.19.24:233][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.14-12.19.24:655][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.14-12.19.24:745][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.14-12.19.24:818][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72,512ms to complete.
+[2018.07.14-12.19.24:818][  0]LogFileHelpers: Loading map 'Template_Default' took 2.270
+[2018.07.14-12.19.26:188][  0]LogCollectionManager: Loaded 0 collections in 0.001109 seconds
+[2018.07.14-12.19.26:325][  0]LogFileCache: Scanning file cache for directory 'E:/Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/Collections/' took 0.01s
+[2018.07.14-12.19.26:326][  0]LogFileCache: Scanning file cache for directory 'E:/Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Developers/Friedel/Collections/' took 0.01s
+[2018.07.14-12.19.26:326][  0]LogFileCache: Scanning file cache for directory 'E:/Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Collections/' took 0.01s
+[2018.07.14-12.19.26:326][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.14-12.19.26:336][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2452 classes and 558 folders.
+[2018.07.14-12.19.26:420][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.14-12.19.28:001][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.14-12.19.28:060][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.07.14-12.19.28:474][  0]LogSlate: Took 0.011127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.14-12.19.28:557][  0]LogSlate: Took 0.081393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.14-12.19.28:627][  0]LogSlate: Took 0.013778 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.14-12.19.28:932][  0]LogRenderer: Reallocating scene render targets to support 1144x616 Format 10 NumSamples 1 (Frame:1).
+[2018.07.14-12.19.29:537][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.07.14-12.19.29:537][  0]LogLoad: (Engine Initialization) Total time: 85.54 seconds
+[2018.07.14-12.19.29:537][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.14-12.19.29:588][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.14-12.19.29:678][  0]LogSlate: Took 0.013851 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.14-12.19.29:885][  2]LogAssetRegistry: Asset discovery search completed in 55.6450 seconds
+[2018.07.14-12.19.29:900][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.14-12.19.29:900][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000123 seconds (updated 0 objects)
+[2018.07.14-12.19.30:560][ 78]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.14-12.19.44:421][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-12.19.47:698][105]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288a9982800, Size=360, Default__Player_BP_C Function /Game/Blueprints/Character/Player_BP.Player_BP_C:ExecuteUbergraph_Player_BP
+[2018.07.14-12.19.47:729][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288a9982800, Size=360
+[2018.07.14-12.19.47:729][105]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288a92e0b80, Size=360, Default__Player_BP_C Function /Engine/Transient.REINST_Player_BP_C_5:ExecuteUbergraph_Player_BP
+[2018.07.14-12.19.47:748][105]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288ec9ed300, Size=312, Default__Player_BP_C Function /Game/Blueprints/Character/Player_BP.Player_BP_C:ExecuteUbergraph_Player_BP
+[2018.07.14-12.19.47:846][105]LogSkeletalMesh: Skeletal Mesh found in DDC [13.326764ms] /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.TutorialTPP
+[2018.07.14-12.19.48:879][178]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.14-12.19.50:880][415]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.14-12.19.50:893][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.14-12.19.50:970][415]PIE: New page: PIE session: Untitled_1 (14 jul. 2018 16:19:50)
+[2018.07.14-12.19.50:970][415]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.14-12.19.50:983][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012732s)
+[2018.07.14-12.19.50:984][415]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.14-12.19.50:984][415]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2018.07.14-12.19.50:984][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.013975s)
+[2018.07.14-12.19.50:996][415]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288a92e0b80, Size=360
+[2018.07.14-12.19.51:016][415]LogInit: XAudio2 using 'Oortelefoon van hoofdtelefoon (HyperX Virtual Surround Sound)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.14-12.19.51:025][415]LogInit: FAudioDevice initialized.
+[2018.07.14-12.19.51:087][415]LogLoad: Game class is 'BaseGameMode_C'
+[2018.07.14-12.19.51:109][415]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.14-14.19.51
+[2018.07.14-12.19.51:109][415]LogWorld: Bringing up level for play took: 0.000873
+[2018.07.14-12.19.51:145][415]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.07.14-12.19.51:180][415]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0,136
+[2018.07.14-12.19.59:301][352]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2018.07.14-12.20.00:051][352]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.14-12.20.01:516][470]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.07.14-12.20.02:628][590]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.07.14-12.20.05:678][940]LogSlate: Took 0.034955 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.14-12.20.06:582][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-12.20.10:081][398]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.07.14-12.20.10:589][398]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288cf8a2048, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.14-12.20.10:590][398]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288cf8a2040, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.14-12.20.11:517][398]LogSlate: Took 0.013272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.14-12.24.25:668][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-12.24.25:815][229]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288fa6efc88, Size=4, Default__BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.24.25:817][229]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288fa6efc88, Size=4
+[2018.07.14-12.24.25:817][229]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288fa6efc88, Size=4, Default__BP_Weapon_C Function /Engine/Transient.REINST_BP_Weapon_C_21:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.24.25:818][229]LogUObjectGlobals: Created PersistentFrame Addr=0x00000288fa6ed6e0, Size=4, Default__BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.25.29:447][448]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890cfcdad8, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.25.41:296][786]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890cfcdad8, Size=4
+[2018.07.14-12.25.41:297][786]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d1c3a88, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_25:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.25.41:298][786]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890cfcc7d8, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.26.41:028][799]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890cfcc7d8, Size=4
+[2018.07.14-12.26.41:028][799]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890cfcc7d8, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_27:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.26.41:029][799]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890cfcfc78, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.26.52:243][ 91]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890cfcfc78, Size=4
+[2018.07.14-12.26.52:243][ 91]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d555dc8, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_29:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.26.52:244][ 91]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d554958, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.27.07:006][766]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d554958, Size=4
+[2018.07.14-12.27.07:006][766]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d1c1e98, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_31:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.27.07:007][766]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d1c0578, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.27.08:022][860]LogSlate: Took 0.147590 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.07.14-12.27.09:056][976]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d1c0578, Size=4
+[2018.07.14-12.27.09:056][976]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890cc2aee8, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_33:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.27.09:057][976]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890cc28a20, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.29.52:056][967]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890cc28a20, Size=4
+[2018.07.14-12.29.52:056][967]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d33a830, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_35:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.29.52:058][967]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d3392c0, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.30.04:723][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d3392c0, Size=4
+[2018.07.14-12.30.04:723][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028905b57e80, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_37:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.30.04:725][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028905b54318, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.30.11:292][185]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028905b54318, Size=4
+[2018.07.14-12.30.11:292][185]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028905b54318, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_39:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.30.11:294][185]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028905b542b8, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.30.42:815][805]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288fa6efc88, Size=4
+[2018.07.14-12.30.42:815][805]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d1c3a88, Size=4
+[2018.07.14-12.30.42:815][805]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890cfcc7d8, Size=4
+[2018.07.14-12.30.42:815][805]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d555dc8, Size=4
+[2018.07.14-12.30.42:815][805]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d1c1e98, Size=4
+[2018.07.14-12.30.42:815][805]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890cc2aee8, Size=4
+[2018.07.14-12.30.42:815][805]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d33a830, Size=4
+[2018.07.14-12.30.42:815][805]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028905b57e80, Size=4
+[2018.07.14-12.30.42:815][805]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028905b54318, Size=4
+[2018.07.14-12.30.42:820][805]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.028
+[2018.07.14-12.30.42:834][805]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Weapon] ([1] browsable assets)...
+[2018.07.14-12.30.42:834][805]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Weapon]
+[2018.07.14-12.30.42:910][805]LogSavePackage: Save=48.69ms
+[2018.07.14-12.30.42:910][805]LogSavePackage: Moving '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/BP_Weapon_Auto121C22DD14F7494795C18B59CAD0AECD7.tmp' to '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Blueprints/Character/BP_Weapon_Auto1.uasset'
+[2018.07.14-12.30.42:922][805]LogSavePackage: Display: Finished SavePackage ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Blueprints/Character/BP_Weapon_Auto1.uasset
+[2018.07.14-12.30.42:922][805]LogFileHelpers: Auto-saving content packages took 0.101
+[2018.07.14-12.32.12:046][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-12.33.43:141][374]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028905b542b8, Size=4
+[2018.07.14-12.33.43:141][374]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890ce6be50, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_41:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.33.43:143][374]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890ce69e80, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.34.08:731][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Weapon" FILE="../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Blueprints/Character/BP_Weapon.uasset" SILENT=true
+[2018.07.14-12.34.08:748][236]LogSavePackage: Save=14.01ms
+[2018.07.14-12.34.08:748][236]LogSavePackage: Moving '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/BP_Weapon1A25E85745355C88B6A355B3D8B85500.tmp' to '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Blueprints/Character/BP_Weapon.uasset'
+[2018.07.14-12.34.08:753][236]LogSavePackage: Display: Finished SavePackage ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Blueprints/Character/BP_Weapon.uasset
+[2018.07.14-12.34.09:583][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-12.37.03:459][826]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.14-12.37.09:053][362]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.14-12.37.09:057][362]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d315cf0, Size=48, Default__GI_HotAsIce_C Function /Game/Blueprints/GameMode/GI_HotAsIce.GI_HotAsIce_C:ExecuteUbergraph_GI_HotAsIce
+[2018.07.14-12.37.09:060][362]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d315cf0, Size=48
+[2018.07.14-12.37.09:060][362]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d315900, Size=48, Default__GI_HotAsIce_C Function /Engine/Transient.REINST_GI_HotAsIce_C_43:ExecuteUbergraph_GI_HotAsIce
+[2018.07.14-12.37.09:063][362]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d316fe0, Size=48, Default__GI_HotAsIce_C Function /Game/Blueprints/GameMode/GI_HotAsIce.GI_HotAsIce_C:ExecuteUbergraph_GI_HotAsIce
+[2018.07.14-12.37.09:065][362]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890c8e5680, Size=64, Default__BP_Health_C Function /Game/Blueprints/Character/BP_Health.BP_Health_C:ExecuteUbergraph_BP_Health
+[2018.07.14-12.37.09:070][362]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890c8e5680, Size=64
+[2018.07.14-12.37.09:070][362]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890c8e7b80, Size=64, Default__BP_Health_C Function /Engine/Transient.REINST_BP_Health_C_45:ExecuteUbergraph_BP_Health
+[2018.07.14-12.37.09:073][362]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890c8e5ec0, Size=64, Default__BP_Health_C Function /Game/Blueprints/Character/BP_Health.BP_Health_C:ExecuteUbergraph_BP_Health
+[2018.07.14-12.40.57:096][825]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890c8e7b80, Size=64
+[2018.07.14-12.40.57:096][825]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d315900, Size=48
+[2018.07.14-12.40.57:096][825]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890ce6be50, Size=4
+[2018.07.14-12.40.57:098][825]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.023
+[2018.07.14-12.40.57:100][825]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Weapon] ([1] browsable assets)...
+[2018.07.14-12.40.57:100][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Weapon]
+[2018.07.14-12.40.57:121][825]LogSavePackage: Save=17.80ms
+[2018.07.14-12.40.57:122][825]LogSavePackage: Moving '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/BP_Weapon_Auto244479D704524C41EAF7E6398B41CC889.tmp' to '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Blueprints/Character/BP_Weapon_Auto2.uasset'
+[2018.07.14-12.40.57:126][825]LogSavePackage: Display: Finished SavePackage ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Blueprints/Character/BP_Weapon_Auto2.uasset
+[2018.07.14-12.40.57:126][825]LogFileHelpers: Auto-saving content packages took 0.027
+[2018.07.14-12.41.54:794][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-12.43.33:808][118]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890ce69e80, Size=4
+[2018.07.14-12.43.33:808][118]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890ce69e80, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_47:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.43.33:810][118]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890ce6b930, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.43.47:042][626]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890ce6b930, Size=4
+[2018.07.14-12.43.47:042][626]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890ce6b930, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_49:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.43.47:043][626]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890ce68300, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.44.06:349][811]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890ce68300, Size=4
+[2018.07.14-12.44.06:350][811]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028916d592e0, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_51:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.44.06:351][811]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028916d59148, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.44.13:089][580]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028916d59148, Size=4
+[2018.07.14-12.44.13:089][580]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028905627548, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_53:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.44.13:091][580]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289056278e0, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.45.18:569][897]LogEditorTransaction: Undo Move Node
+[2018.07.14-12.45.18:569][897]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289056278e0, Size=4
+[2018.07.14-12.45.18:569][897]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d1c24a8, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_55:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.45.18:571][897]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d1c19c8, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.45.19:140][906]LogEditorTransaction: Undo Create Reroute Node
+[2018.07.14-12.45.19:141][906]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d1c19c8, Size=4
+[2018.07.14-12.45.19:141][906]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028905624320, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_57:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.45.19:143][906]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028905627aa0, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.50.26:178][790]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028905627aa0, Size=4
+[2018.07.14-12.50.26:178][790]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d33bf48, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_59:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.50.26:180][790]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d33b6d0, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.50.30:692][288]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d33b6d0, Size=4
+[2018.07.14-12.50.30:692][288]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d33b6d0, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_61:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.50.30:695][288]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d3391f0, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.50.41:919][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d3391f0, Size=4
+[2018.07.14-12.50.41:919][579]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d3391f0, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_63:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.50.41:921][579]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d33b048, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.50.58:142][416]BlueprintLog: New page: Compile BP_Weapon
+[2018.07.14-12.50.58:153][416]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d33b048, Size=4
+[2018.07.14-12.50.58:153][416]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890cc2bbd0, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_65:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.50.58:163][416]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000288fa6ed6e0, Size=4
+[2018.07.14-12.50.58:163][416]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890cc2a3f0, Size=4, Default__BP_Weapon_C Function /Engine/Transient.REINST_BP_Weapon_C_67:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.50.58:166][416]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028916a0b240, Size=28, Default__BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.50.58:187][416]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890cc2bbd0, Size=4
+[2018.07.14-12.50.58:187][416]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d3391f0, Size=4
+[2018.07.14-12.50.58:187][416]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d33b6d0, Size=4
+[2018.07.14-12.50.58:187][416]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d33bf48, Size=4
+[2018.07.14-12.50.58:187][416]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028905624320, Size=4
+[2018.07.14-12.50.58:187][416]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d1c24a8, Size=4
+[2018.07.14-12.50.58:187][416]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028905627548, Size=4
+[2018.07.14-12.50.58:187][416]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028916d592e0, Size=4
+[2018.07.14-12.50.58:187][416]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890ce69e80, Size=4
+[2018.07.14-12.50.58:187][416]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890ce6b930, Size=4
+[2018.07.14-12.52.17:218][856]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028916ecedd8, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.52.38:770][343]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028916ecedd8, Size=4
+[2018.07.14-12.52.38:770][343]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289110eb298, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_71:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.52.38:772][343]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289110e8488, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.52.41:466][631]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289110e8488, Size=4
+[2018.07.14-12.52.41:466][631]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289110e8488, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_73:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.52.41:468][631]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289110eb628, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.54.12:457][958]LogEditorTransaction: Undo Create Pin Link
+[2018.07.14-12.54.12:458][958]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289110eb628, Size=4
+[2018.07.14-12.54.12:458][958]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028917088af8, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_75:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.54.12:460][958]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028917088ec8, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.54.12:936][997]LogEditorTransaction: Undo Move Node
+[2018.07.14-12.54.12:937][997]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028917088ec8, Size=4
+[2018.07.14-12.54.12:937][997]LogUObjectGlobals: Created PersistentFrame Addr=0x000002891d9e5858, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_77:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.54.12:939][997]LogUObjectGlobals: Created PersistentFrame Addr=0x000002891d9e52f0, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.54.13:368][ 41]LogEditorTransaction: Undo Paste clipboard contents
+[2018.07.14-12.54.13:369][ 41]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002891d9e52f0, Size=4
+[2018.07.14-12.54.13:369][ 41]LogUObjectGlobals: Created PersistentFrame Addr=0x000002891d9e52f0, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_79:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.54.13:371][ 41]LogUObjectGlobals: Created PersistentFrame Addr=0x000002891d9e5938, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.54.13:786][ 82]LogEditorTransaction: Undo Delete current selection
+[2018.07.14-12.54.13:786][ 82]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002891d9e5938, Size=4
+[2018.07.14-12.54.13:786][ 82]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d1c2dd8, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_81:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.54.13:788][ 82]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d1c3320, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-12.57.14:723][287]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d1c2dd8, Size=4
+[2018.07.14-12.57.14:723][287]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002891d9e52f0, Size=4
+[2018.07.14-12.57.14:723][287]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890cc2a3f0, Size=4
+[2018.07.14-12.57.14:723][287]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002891d9e5858, Size=4
+[2018.07.14-12.57.14:723][287]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028917088af8, Size=4
+[2018.07.14-12.57.14:723][287]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289110e8488, Size=4
+[2018.07.14-12.57.14:723][287]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289110eb298, Size=4
+[2018.07.14-12.57.14:727][287]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.026
+[2018.07.14-12.57.14:729][287]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Weapon] ([1] browsable assets)...
+[2018.07.14-12.57.14:729][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Weapon]
+[2018.07.14-12.57.15:034][287]LogSavePackage: Save=301.51ms
+[2018.07.14-12.57.15:034][287]LogSavePackage: Moving '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/BP_Weapon_Auto3E1EDFA09498666F795B32BA88BCD4248.tmp' to '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Blueprints/Character/BP_Weapon_Auto3.uasset'
+[2018.07.14-12.57.15:038][287]LogSavePackage: Display: Finished SavePackage ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Blueprints/Character/BP_Weapon_Auto3.uasset
+[2018.07.14-12.57.15:038][287]LogFileHelpers: Auto-saving content packages took 0.310
+[2018.07.14-12.59.25:784][141]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-13.01.27:535][671]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d1c3320, Size=4
+[2018.07.14-13.01.27:535][671]LogUObjectGlobals: Created PersistentFrame Addr=0x000002891d9e6c88, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_83:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.01.27:538][671]LogUObjectGlobals: Created PersistentFrame Addr=0x000002891d9e6328, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.03.02:696][284]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002891d9e6328, Size=4
+[2018.07.14-13.03.02:696][284]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028910fa5e70, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_85:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.03.02:699][284]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028910fa7ec0, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.03.40:373][360]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028910fa7ec0, Size=4
+[2018.07.14-13.03.40:373][360]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028910fa7ec0, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_87:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.03.40:375][360]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028910fa4418, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.04.37:155][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Weapon" FILE="../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Blueprints/Character/BP_Weapon.uasset" SILENT=true
+[2018.07.14-13.04.37:187][495]LogSavePackage: Save=29.02ms
+[2018.07.14-13.04.37:187][495]LogSavePackage: Moving '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/BP_WeaponB1E0E49F40A416BCBE0ABF874D98DFB1.tmp' to '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Blueprints/Character/BP_Weapon.uasset'
+[2018.07.14-13.04.37:193][495]LogSavePackage: Display: Finished SavePackage ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Blueprints/Character/BP_Weapon.uasset
+[2018.07.14-13.04.37:925][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-13.07.15:116][539]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002891d9e6c88, Size=4
+[2018.07.14-13.07.15:117][539]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028910fa7ec0, Size=4
+[2018.07.14-13.07.15:117][539]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028910fa5e70, Size=4
+[2018.07.14-13.07.15:118][539]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.022
+[2018.07.14-13.07.15:120][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Weapon] ([1] browsable assets)...
+[2018.07.14-13.07.15:120][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Weapon]
+[2018.07.14-13.07.15:154][539]LogSavePackage: Save=31.62ms
+[2018.07.14-13.07.15:154][539]LogSavePackage: Moving '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/BP_Weapon_Auto46F27497543119D2C28194AB534064288.tmp' to '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Blueprints/Character/BP_Weapon_Auto4.uasset'
+[2018.07.14-13.07.15:158][539]LogSavePackage: Display: Finished SavePackage ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Blueprints/Character/BP_Weapon_Auto4.uasset
+[2018.07.14-13.07.15:158][539]LogFileHelpers: Auto-saving content packages took 0.039
+[2018.07.14-13.07.35:965][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-13.07.44:064][  7]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028910fa4418, Size=4
+[2018.07.14-13.07.44:064][  7]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d1c3ad8, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_89:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.07.44:066][  7]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028921842b10, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.07.46:002][204]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028921842b10, Size=4
+[2018.07.14-13.07.46:002][204]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d1c2750, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_91:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.07.46:005][204]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890d1c3668, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.12.40:405][727]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d1c3668, Size=4
+[2018.07.14-13.12.40:405][727]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289226601e0, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_93:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.12.40:408][727]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289226624a8, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.12.44:296][ 98]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289226624a8, Size=4
+[2018.07.14-13.12.44:296][ 98]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890b73c728, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_95:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.12.44:298][ 98]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890b73cc98, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.13.33:529][346]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890b73cc98, Size=4
+[2018.07.14-13.13.33:529][346]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028916d596b8, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_97:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.13.33:532][346]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028916d5b170, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.13.37:175][670]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028916d5b170, Size=4
+[2018.07.14-13.13.37:176][670]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028910fa74a8, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_99:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.13.37:178][670]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028910fa46b8, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.13.51:263][191]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028910fa46b8, Size=4
+[2018.07.14-13.13.51:263][191]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028905b55e68, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_101:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.13.51:266][191]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028905b568a0, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.13.56:411][764]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028905b568a0, Size=4
+[2018.07.14-13.13.56:411][764]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028921843110, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_103:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.13.56:414][764]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028921840418, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.15.05:405][165]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028921840418, Size=4
+[2018.07.14-13.15.05:405][165]LogUObjectGlobals: Created PersistentFrame Addr=0x000002891708ae38, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_105:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.15.05:409][165]LogUObjectGlobals: Created PersistentFrame Addr=0x000002891708b6f8, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.15.32:567][ 55]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002891708b6f8, Size=4
+[2018.07.14-13.15.32:567][ 55]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890ce6a368, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_107:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.15.32:571][ 55]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890ce69cd8, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.15.47:818][639]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890ce69cd8, Size=4
+[2018.07.14-13.15.47:818][639]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028917089a08, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_109:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.15.47:822][639]LogUObjectGlobals: Created PersistentFrame Addr=0x000002891708b078, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.16.34:347][742]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002891708b078, Size=4
+[2018.07.14-13.16.34:347][742]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028921840e68, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_111:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.16.34:350][742]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289218416c0, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.16.44:488][698]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289218416c0, Size=4
+[2018.07.14-13.16.44:488][698]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289218416c0, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_113:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.16.44:491][698]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289218436d8, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.17.02:234][376]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289218436d8, Size=4
+[2018.07.14-13.17.02:234][376]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289218436d8, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_115:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.17.02:237][376]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289110e8f30, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.17.19:050][ 39]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289110e8f30, Size=4
+[2018.07.14-13.17.19:050][ 39]LogUObjectGlobals: Created PersistentFrame Addr=0x000002891708b2b8, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_117:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.17.19:054][ 39]LogUObjectGlobals: Created PersistentFrame Addr=0x00000289170889c8, Size=4, Default__SKEL_BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.SKEL_BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.17.34:827][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Weapon" FILE="../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Blueprints/Character/BP_Weapon.uasset" SILENT=true
+[2018.07.14-13.17.34:868][541]LogSavePackage: Save=37.48ms
+[2018.07.14-13.17.34:868][541]LogSavePackage: Moving '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/BP_Weapon9750743C449488007DCC5484FC885042.tmp' to '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Blueprints/Character/BP_Weapon.uasset'
+[2018.07.14-13.17.34:874][541]LogSavePackage: Display: Finished SavePackage ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Blueprints/Character/BP_Weapon.uasset
+[2018.07.14-13.17.36:362][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-13.18.40:684][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028917089a08, Size=4
+[2018.07.14-13.18.40:684][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890ce6a368, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002891708ae38, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028921843110, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890b73c728, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028905b55e68, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028910fa74a8, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028916d596b8, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d1c3ad8, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289226601e0, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890d1c2750, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028921840e68, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289218416c0, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289218436d8, Size=4
+[2018.07.14-13.18.40:685][978]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002891708b2b8, Size=4
+[2018.07.14-13.18.40:693][978]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.031
+[2018.07.14-13.18.40:695][978]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Weapon] ([1] browsable assets)...
+[2018.07.14-13.18.40:695][978]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Weapon]
+[2018.07.14-13.18.40:734][978]LogSavePackage: Save=36.14ms
+[2018.07.14-13.18.40:734][978]LogSavePackage: Moving '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/BP_Weapon_Auto51E5222414A2001BA38F76495FCED8918.tmp' to '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Blueprints/Character/BP_Weapon_Auto5.uasset'
+[2018.07.14-13.18.40:738][978]LogSavePackage: Display: Finished SavePackage ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Blueprints/Character/BP_Weapon_Auto5.uasset
+[2018.07.14-13.18.40:738][978]LogFileHelpers: Auto-saving content packages took 0.044
+[2018.07.14-13.19.06:168][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-13.21.07:498][457]BlueprintLog: New page: Compile BP_Weapon
+[2018.07.14-13.21.07:513][457]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000289170889c8, Size=4
+[2018.07.14-13.21.07:513][457]LogUObjectGlobals: Created PersistentFrame Addr=0x000002890ce6a220, Size=4, Default__SKEL_BP_Weapon_C Function /Engine/Transient.REINST_SKEL_BP_Weapon_C_119:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.21.07:528][457]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028916a0b240, Size=28
+[2018.07.14-13.21.07:528][457]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028913203920, Size=28, Default__BP_Weapon_C Function /Engine/Transient.REINST_BP_Weapon_C_121:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.21.07:534][457]LogUObjectGlobals: Created PersistentFrame Addr=0x000002892b539a20, Size=96, Default__BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.14-13.21.07:555][457]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002890ce6a220, Size=4
+[2018.07.14-13.21.24:188][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-13.21.30:412][770]Cmd: DELETE
+[2018.07.14-13.21.30:412][770]Cmd: ACTOR DELETE
+[2018.07.14-13.21.30:542][770]LogEditorActor: Deleted Actor: Player_BP_C
+[2018.07.14-13.21.30:593][770]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2018.07.14-13.21.31:809][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-13.21.40:174][165]LogSlate: Window 'Save Content' being destroyed
+[2018.07.14-13.21.40:186][165]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.14-13.21.40:192][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Weapon" FILE="../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Blueprints/Character/BP_Weapon.uasset" SILENT=true
+[2018.07.14-13.21.40:248][165]LogSavePackage: Save=52.65ms
+[2018.07.14-13.21.40:248][165]LogSavePackage: Moving '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/BP_WeaponF9573FF44138A1B804F71999C05D1C21.tmp' to '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Blueprints/Character/BP_Weapon.uasset'
+[2018.07.14-13.21.40:255][165]LogSavePackage: Display: Finished SavePackage ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Blueprints/Character/BP_Weapon.uasset
+[2018.07.14-13.21.44:203][165]LogTextFormatter: Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2018.07.14-13.21.45:347][165]LogSlate: Window 'Message' being destroyed
+[2018.07.14-13.21.45:353][165]LogSlate: Window 'Save Level As' being destroyed
+[2018.07.14-13.21.45:509][165]LogSavePackage: Save=18.88ms
+[2018.07.14-13.21.45:509][165]LogSavePackage: Moving '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/FV_Level_Test21EC91584A01325291F0C99D87CCEB71.tmp' to '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Maps/FV_Level_Test.umap'
+[2018.07.14-13.21.45:514][165]LogSavePackage: Display: Finished SavePackage ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Maps/FV_Level_Test.umap
+[2018.07.14-13.21.45:547][165]LogFileHelpers: Saving map 'FV_Level_Test' took 0.189
+[2018.07.14-13.22.05:287][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.14-13.22.55:385][596]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.14-13.22.56:525][721]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.14-13.22.56:554][721]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028913203920, Size=28
+[2018.07.14-13.22.56:574][721]LogSavePackage: Save=17.41ms
+[2018.07.14-13.22.56:574][721]LogSavePackage: Moving '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/FV_Level_Test20B9BA42453A5BD1FBA48A848EB765AB.tmp' to '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Maps/FV_Level_Test.umap'
+[2018.07.14-13.22.56:578][721]LogSavePackage: Display: Finished SavePackage ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Maps/FV_Level_Test.umap
+[2018.07.14-13.22.56:599][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FV_Level_Test_BuiltData" FILE="../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Maps/FV_Level_Test_BuiltData.uasset" SILENT=true
+[2018.07.14-13.22.56:669][721]LogSavePackage: Save=68.02ms
+[2018.07.14-13.22.56:670][721]LogSavePackage: Moving '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Saved/FV_Level_Test_BuiltDataC45C456F4987437F147F0399A30A0F22.tmp' to '../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Maps/FV_Level_Test_BuiltData.uasset'
+[2018.07.14-13.22.56:673][721]LogSavePackage: Display: Finished SavePackage ../../../../Friedel/Bureaublad/BrainsEden2018/BrainsEden2018/HotAsIce/Content/Maps/FV_Level_Test_BuiltData.uasset
+[2018.07.14-13.22.58:229][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
