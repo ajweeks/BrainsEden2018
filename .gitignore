@@ -75,3 +75,8 @@ HotAsIce/Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 HotAsIce/DerivedDataCache/*
+
+HotAsIce/Intermediate/
+HotAsIce/Saved/
+HotAsIce/Build/
+HotAsIce/DerivedDataCache/
