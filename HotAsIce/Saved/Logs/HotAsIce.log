@@ -1,0 +1,1405 @@
+﻿Log file open, 07/15/18 10:46:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: HotAsIce
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-784794990) SRandInit(-784794990).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.287339
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.572s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am LAPTOP-0FSHU77K (10.50.4.22:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: D:/programs/unreal/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.15-08.46.50:108][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.15-08.46.50:109][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.15-08.46.50:128][  0]LogInit: Computer: LAPTOP-0FSHU77K
+[2018.07.15-08.46.50:128][  0]LogInit: User: jenni
+[2018.07.15-08.46.50:128][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.15-08.46.50:128][  0]LogInit: High frequency timer resolution =2.742190 MHz
+[2018.07.15-08.46.50:128][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.07.15-08.46.50:128][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.15-08.46.50:128][  0]LogMemory: Process Physical Memory: 274.32 MB used, 274.32 MB peak
+[2018.07.15-08.46.50:128][  0]LogMemory: Process Virtual Memory: 264.76 MB used, 264.76 MB peak
+[2018.07.15-08.46.50:128][  0]LogMemory: Physical Memory: 7269.41 MB used,  9071.82 MB free, 16341.22 MB total
+[2018.07.15-08.46.50:128][  0]LogMemory: Virtual Memory: 4779.99 MB used,  9071.82 MB free, 134217728.00 MB total
+[2018.07.15-08.46.50:201][  0]LogInit: Using OS detected language (en-GB).
+[2018.07.15-08.46.50:201][  0]LogInit: Using OS detected locale (de-DE).
+[2018.07.15-08.46.50:210][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.07.15-08.46.50:815][  0]LogStreaming: Display: Took  0.613s to EndInitTextLocalization.
+[2018.07.15-08.46.50:815][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.15-08.46.50:864][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.15-08.46.50:864][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.15-08.46.51:177][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.15-08.46.51:254][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.07.15-08.46.51:254][  0]LogD3D11RHI:       6061/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.15-08.46.51:257][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.15-08.46.51:257][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.15-08.46.51:257][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.15-08.46.51:266][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.15-08.46.51:266][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.15-08.46.51:266][  0]LogWindows: EnumDisplayDevices:
+[2018.07.15-08.46.51:266][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2018.07.15-08.46.51:266][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.07.15-08.46.51:266][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.07.15-08.46.51:267][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.07.15-08.46.51:267][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.15-08.46.51:267][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.07.15-08.46.51:267][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.15-08.46.51:267][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.15-08.46.51:267][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.07.15-08.46.51:310][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.15-08.46.51:310][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.15-08.46.51:310][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.15-08.46.51:325][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.07.15-08.46.51:369][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Intermediate/Shaders/WorkingDirectory/11028/).
+[2018.07.15-08.46.51:369][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jenni/AppData/Local/Temp/UnrealShaderWorkingDir/CA3895054574DD99EFA17D819FC0A9FE/'.
+[2018.07.15-08.46.53:664][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.15-08.46.53:680][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.15-08.46.53:695][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.15-08.46.53:710][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.15-08.46.53:728][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.15-08.46.53:744][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.15-08.46.53:761][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.15-08.46.53:778][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.15-08.46.53:786][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.15-08.46.53:801][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.15-08.46.53:816][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.15-08.46.53:832][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.15-08.46.53:850][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.15-08.46.53:863][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.15-08.46.53:879][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.15-08.46.53:908][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.15-08.46.53:908][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.15-08.46.53:923][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.15-08.46.53:926][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.15-08.46.53:967][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.15-08.46.53:994][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.15-08.46.54:010][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.15-08.46.54:025][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.15-08.46.54:040][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.15-08.46.54:054][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.15-08.46.54:054][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.15-08.46.54:209][  0]LogXGEController: Cleaning working directory: C:/Users/jenni/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.15-08.46.54:210][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.15-08.46.54:210][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.15-08.46.54:210][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.15-08.46.55:007][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.15-08.46.55:082][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/jenni/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.15-08.46.55:082][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jenni/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.15-08.46.55:082][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.15-08.46.55:082][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.15-08.46.55:082][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.15-08.46.55:082][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.15-08.46.55:102][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.15-08.46.55:117][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jenni/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.15-08.46.55:117][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.15-08.46.55:117][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.15-08.46.55:130][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.15-08.46.55:130][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.15-08.46.55:131][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.15-08.46.55:131][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.15-08.46.55:297][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.07.15-08.46.55:669][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.15-08.46.55:867][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.15-08.46.55:870][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.15-08.46.55:870][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.15-08.46.55:870][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.15-08.46.55:870][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.15-08.46.55:870][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.15-08.46.55:917][  0]LogNetVersion: HotAsIce , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 389168531)
+[2018.07.15-08.46.56:588][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.124716 seconds
+[2018.07.15-08.46.56:596][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.15-08.46.56:596][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.07.15-08.46.56:596][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.15-08.46.58:860][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.15-08.46.58:928][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.15-08.46.59:479][  0]SourceControl: Source control is disabled
+[2018.07.15-08.46.59:479][  0]SourceControl: Source control is disabled
+[2018.07.15-08.46.59:508][  0]SourceControl: Source control is disabled
+[2018.07.15-08.46.59:540][  0]SourceControl: Source control is disabled
+[2018.07.15-08.47.00:266][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.15-08.47.00:505][  0]LogOcInput: OculusInput pre-init called
+[2018.07.15-08.47.00:658][  0]LogEngine: Initializing Engine...
+[2018.07.15-08.47.00:660][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.15-08.47.00:662][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.15-08.47.00:662][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.15-08.47.00:992][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.15-08.47.01:003][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.15-08.47.01:031][  0]LogInit: FAudioDevice initialized.
+[2018.07.15-08.47.01:096][  0]LogDerivedDataCache: Saved boot cache 0.06s 74MB C:/Users/jenni/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.15-08.47.01:110][  0]LogInit: Texture streaming: Enabled
+[2018.07.15-08.47.01:130][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.15-08.47.01:146][  0]LogInit: Transaction tracking system initialized
+[2018.07.15-08.47.01:173][  0]BlueprintLog: New page: Editor Load
+[2018.07.15-08.47.01:266][  0]LocalizationService: Localization service is disabled
+[2018.07.15-08.47.01:380][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerPresets/SideScrollerOverview'
+[2018.07.15-08.47.01:381][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerPresets/SideScrollerOverview'
+[2018.07.15-08.47.01:381][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerPresets/SideScrollerOverview.SideScrollerOverview_C'
+[2018.07.15-08.47.01:407][  0]LogConsoleResponse: Display: 
+[2018.07.15-08.47.01:614][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.15-08.47.01:614][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.15-08.47.01:614][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.15-08.47.01:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.15-08.47.01:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.15-08.47.01:795][  0]LogFileCache: Scanning file cache for directory 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/' took 0.02s
+[2018.07.15-08.47.02:191][  0]SourceControl: Source control is disabled
+[2018.07.15-08.47.02:191][  0]Cmd: MAP LOAD FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Maps/PlayerMovementTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.15-08.47.02:191][  0]LightingResults: New page: Lighting Build
+[2018.07.15-08.47.02:194][  0]MapCheck: New page: Map Check
+[2018.07.15-08.47.02:194][  0]LightingResults: New page: Lighting Build
+[2018.07.15-08.47.02:320][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaa401480, Size=336, Default__CameraFocusActor_C Function /Game/Blueprints/CameraFocusActor.CameraFocusActor_C:ExecuteUbergraph_CameraFocusActor
+[2018.07.15-08.47.02:325][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaa786e80, Size=624, Default__Player_BP_C Function /Game/Blueprints/Character/Player_BP.Player_BP_C:ExecuteUbergraph_Player_BP
+[2018.07.15-08.47.02:331][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaa40a780, Size=200, Default__BP_Health_C Function /Game/Blueprints/Character/BP_Health.BP_Health_C:ExecuteUbergraph_BP_Health
+[2018.07.15-08.47.02:378][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaa0eee00, Size=184, Default__BP_Tile_C Function /Game/Blueprints/Tiles/BP_Tile.BP_Tile_C:ExecuteUbergraph_BP_Tile
+[2018.07.15-08.47.02:393][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaa780480, Size=416, Default__BP_Marker_C Function /Game/Blueprints/Character/BP_Marker.BP_Marker_C:ExecuteUbergraph_BP_Marker
+[2018.07.15-08.47.02:400][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feb1d75d00, Size=1136, Default__BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.15-08.47.02:450][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feb1d0d800, Size=992, Default__BP_Projectile_C Function /Game/Blueprints/Projectiles/BP_Projectile.BP_Projectile_C:ExecuteUbergraph_BP_Projectile
+[2018.07.15-08.47.02:453][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaeaafe50, Size=48, Default__GI_HotAsIce_C Function /Game/Blueprints/GameMode/GI_HotAsIce.GI_HotAsIce_C:ExecuteUbergraph_GI_HotAsIce
+[2018.07.15-08.47.02:493][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaac574c0, Size=296, Default__UI_HUD_BP_C Function /Game/Blueprints/UI/UI_HUD_BP.UI_HUD_BP_C:ExecuteUbergraph_UI_HUD_BP
+[2018.07.15-08.47.02:502][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaa4c8258, Size=4, Default__BaseGameMode_C Function /Game/Blueprints/GameMode/BaseGameMode.BaseGameMode_C:ExecuteUbergraph_BaseGameMode
+[2018.07.15-08.47.02:543][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaa40a780, Size=200
+[2018.07.15-08.47.02:543][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaaee6e80, Size=200, Default__BP_Health_C Function /Engine/Transient.REINST_BP_Health_C_5:ExecuteUbergraph_BP_Health
+[2018.07.15-08.47.02:545][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaa780480, Size=416
+[2018.07.15-08.47.02:545][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feab04b3c0, Size=416, Default__BP_Marker_C Function /Engine/Transient.REINST_BP_Marker_C_6:ExecuteUbergraph_BP_Marker
+[2018.07.15-08.47.02:545][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feb1d0d800, Size=992
+[2018.07.15-08.47.02:545][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feab03f000, Size=992, Default__BP_Projectile_C Function /Engine/Transient.REINST_BP_Projectile_C_7:ExecuteUbergraph_BP_Projectile
+[2018.07.15-08.47.02:546][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaa0eee00, Size=184
+[2018.07.15-08.47.02:546][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaafbf340, Size=184, Default__BP_Tile_C Function /Engine/Transient.REINST_BP_Tile_C_8:ExecuteUbergraph_BP_Tile
+[2018.07.15-08.47.02:546][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feb1d75d00, Size=1136
+[2018.07.15-08.47.02:546][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fe80b17900, Size=1136, Default__BP_Weapon_C Function /Engine/Transient.REINST_BP_Weapon_C_9:ExecuteUbergraph_BP_Weapon
+[2018.07.15-08.47.02:546][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaa401480, Size=336
+[2018.07.15-08.47.02:547][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaaebef80, Size=336, Default__CameraFocusActor_C Function /Engine/Transient.REINST_CameraFocusActor_C_10:ExecuteUbergraph_CameraFocusActor
+[2018.07.15-08.47.02:547][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaeaafe50, Size=48
+[2018.07.15-08.47.02:547][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaeaafe50, Size=48, Default__GI_HotAsIce_C Function /Engine/Transient.REINST_GI_HotAsIce_C_11:ExecuteUbergraph_GI_HotAsIce
+[2018.07.15-08.47.02:547][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaa4c8258, Size=4
+[2018.07.15-08.47.02:547][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feab0b1da0, Size=4, Default__BaseGameMode_C Function /Engine/Transient.REINST_BaseGameMode_C_12:ExecuteUbergraph_BaseGameMode
+[2018.07.15-08.47.02:548][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaa786e80, Size=624
+[2018.07.15-08.47.02:548][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feab109800, Size=624, Default__Player_BP_C Function /Engine/Transient.REINST_Player_BP_C_13:ExecuteUbergraph_Player_BP
+[2018.07.15-08.47.02:548][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaac574c0, Size=296
+[2018.07.15-08.47.02:548][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feaac574c0, Size=296, Default__UI_HUD_BP_C Function /Engine/Transient.REINST_UI_HUD_BP_C_0:ExecuteUbergraph_UI_HUD_BP
+[2018.07.15-08.47.02:608][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fec74dbf20, Size=200, Default__BP_Health_C Function /Game/Blueprints/Character/BP_Health.BP_Health_C:ExecuteUbergraph_BP_Health
+[2018.07.15-08.47.02:609][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fec74bee80, Size=416, Default__BP_Marker_C Function /Game/Blueprints/Character/BP_Marker.BP_Marker_C:ExecuteUbergraph_BP_Marker
+[2018.07.15-08.47.02:612][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001feab0c9c00, Size=992, Default__BP_Projectile_C Function /Game/Blueprints/Projectiles/BP_Projectile.BP_Projectile_C:ExecuteUbergraph_BP_Projectile
+[2018.07.15-08.47.02:614][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fec74474c0, Size=184, Default__BP_Tile_C Function /Game/Blueprints/Tiles/BP_Tile.BP_Tile_C:ExecuteUbergraph_BP_Tile
+[2018.07.15-08.47.02:620][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fec740f200, Size=1136, Default__BP_Weapon_C Function /Game/Blueprints/Character/BP_Weapon.BP_Weapon_C:ExecuteUbergraph_BP_Weapon
+[2018.07.15-08.47.02:622][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fec742af80, Size=336, Default__CameraFocusActor_C Function /Game/Blueprints/CameraFocusActor.CameraFocusActor_C:ExecuteUbergraph_CameraFocusActor
+[2018.07.15-08.47.02:623][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fec73ec520, Size=48, Default__GI_HotAsIce_C Function /Game/Blueprints/GameMode/GI_HotAsIce.GI_HotAsIce_C:ExecuteUbergraph_GI_HotAsIce
+[2018.07.15-08.47.02:625][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fec757ea00, Size=4, Default__BaseGameMode_C Function /Game/Blueprints/GameMode/BaseGameMode.BaseGameMode_C:ExecuteUbergraph_BaseGameMode
+[2018.07.15-08.47.02:630][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fec736b880, Size=624, Default__Player_BP_C Function /Game/Blueprints/Character/Player_BP.Player_BP_C:ExecuteUbergraph_Player_BP
+[2018.07.15-08.47.02:635][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fec747b740, Size=296, Default__UI_HUD_BP_C Function /Game/Blueprints/UI/UI_HUD_BP.UI_HUD_BP_C:ExecuteUbergraph_UI_HUD_BP
+[2018.07.15-08.47.02:669][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fec757e538, Size=8, Default__BP_GridSystem_C Function /Game/Blueprints/Tiles/BP_GridSystem.BP_GridSystem_C:ExecuteUbergraph_BP_GridSystem
+[2018.07.15-08.47.02:675][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fec757e538, Size=8
+[2018.07.15-08.47.02:675][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fec757e538, Size=8, Default__BP_GridSystem_C Function /Engine/Transient.REINST_BP_GridSystem_C_24:ExecuteUbergraph_BP_GridSystem
+[2018.07.15-08.47.02:682][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fec757dfe0, Size=8, Default__BP_GridSystem_C Function /Game/Blueprints/Tiles/BP_GridSystem.BP_GridSystem_C:ExecuteUbergraph_BP_GridSystem
+[2018.07.15-08.47.03:014][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [2.857570ms] /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.TutorialTPP
+[2018.07.15-08.47.03:071][  0]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2018.07.15-08.47.03:082][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.15-08.47.03:098][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaaebef80, Size=336
+[2018.07.15-08.47.03:098][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feab109800, Size=624
+[2018.07.15-08.47.03:098][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaaee6e80, Size=200
+[2018.07.15-08.47.03:098][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaafbf340, Size=184
+[2018.07.15-08.47.03:098][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feab04b3c0, Size=416
+[2018.07.15-08.47.03:098][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fe80b17900, Size=1136
+[2018.07.15-08.47.03:098][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feab03f000, Size=992
+[2018.07.15-08.47.03:098][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaeaafe50, Size=48
+[2018.07.15-08.47.03:098][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feaac574c0, Size=296
+[2018.07.15-08.47.03:098][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feab0b1da0, Size=4
+[2018.07.15-08.47.03:100][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fec757e538, Size=8
+[2018.07.15-08.47.03:101][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.15-08.47.03:179][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78,75ms to complete.
+[2018.07.15-08.47.03:179][  0]LogFileHelpers: Loading map 'PlayerMovementTest' took 0.989
+[2018.07.15-08.47.03:339][  0]LogCollectionManager: Loaded 0 collections in 0.002486 seconds
+[2018.07.15-08.47.03:391][  0]LogFileCache: Scanning file cache for directory 'D:/BrainsEden/BrainsEden2018/HotAsIce/Saved/Collections/' took 0.01s
+[2018.07.15-08.47.03:391][  0]LogFileCache: Scanning file cache for directory 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/Developers/jenni/Collections/' took 0.01s
+[2018.07.15-08.47.03:391][  0]LogFileCache: Scanning file cache for directory 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/Collections/' took 0.01s
+[2018.07.15-08.47.03:391][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.15-08.47.03:408][  0]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2452 classes and 558 folders.
+[2018.07.15-08.47.03:416][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.15-08.47.03:490][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.15-08.47.03:496][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.07.15-08.47.03:506][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2018.07.15-08.47.03:572][  0]LogSlate: Took 0.000387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.15-08.47.03:575][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.15-08.47.03:581][  0]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.15-08.47.03:696][  0]LogRenderer: Reallocating scene render targets to support 1128x516 Format 10 NumSamples 1 (Frame:1).
+[2018.07.15-08.47.03:820][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.15-08.47.03:820][  0]LogLoad: (Engine Initialization) Total time: 17.28 seconds
+[2018.07.15-08.47.03:820][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.15-08.47.04:187][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.15-08.47.04:215][  0]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.15-08.47.04:515][  1]LogAssetRegistry: Asset discovery search completed in 9.2403 seconds
+[2018.07.15-08.47.04:519][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.15-08.47.04:519][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000108 seconds (updated 0 objects)
+[2018.07.15-08.47.41:915][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-08.47.52:156][683]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.15-08.47.52:174][683]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/PepperWalk.fbx)
+[2018.07.15-08.47.52:187][683]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.15-08.47.52:187][683]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.15-08.47.52:187][683]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.15-08.47.52:187][683]LogFbx: ItemName: NodeAttribute, ItemCount : 23
+[2018.07.15-08.47.52:187][683]LogFbx: ItemName: Model, ItemCount : 23
+[2018.07.15-08.47.52:187][683]LogFbx: ItemName: AnimationCurveNode, ItemCount : 47
+[2018.07.15-08.47.52:187][683]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2018.07.15-08.47.52:187][683]LogFbx: ItemName: AnimationCurve, ItemCount : 48
+[2018.07.15-08.47.52:193][683]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/PepperWalk.fbx
+[2018.07.15-08.47.52:210][683]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-08.47.54:160][683]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.15-08.47.54:205][683]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/PepperWalk.fbx
+[2018.07.15-08.47.54:220][683]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-08.47.54:265][683]LogFbx: SortedLinks :(0) Root_Jnt
+[2018.07.15-08.47.54:265][683]LogFbx: SortedLinks :(1) Movement_Jnt
+[2018.07.15-08.47.54:265][683]LogFbx: SortedLinks :(2) PH1_Jnt
+[2018.07.15-08.47.54:265][683]LogFbx: SortedLinks :(3) PH2_Jnt
+[2018.07.15-08.47.54:265][683]LogFbx: SortedLinks :(4) PH3_Jnt
+[2018.07.15-08.47.54:265][683]LogFbx: SortedLinks :(5) Hip_Jnt
+[2018.07.15-08.47.54:266][683]LogFbx: SortedLinks :(6) PH4_Jnt
+[2018.07.15-08.47.54:266][683]LogFbx: SortedLinks :(7) PH5_Jnt
+[2018.07.15-08.47.54:266][683]LogFbx: SortedLinks :(8) Head_Jnt
+[2018.07.15-08.47.54:266][683]LogFbx: SortedLinks :(9) Cherry_Jnt
+[2018.07.15-08.47.54:266][683]LogFbx: SortedLinks :(10) CherryStickEnd_Jnt
+[2018.07.15-08.47.54:266][683]LogFbx: SortedLinks :(11) PH9_Jnt
+[2018.07.15-08.47.54:266][683]LogFbx: SortedLinks :(12) PH10_Jnt
+[2018.07.15-08.47.54:266][683]LogFbx: SortedLinks :(13) CherryStickMiddle_Jnt
+[2018.07.15-08.47.54:266][683]LogFbx: SortedLinks :(14) PH11_Jnt
+[2018.07.15-08.47.54:266][683]LogFbx: SortedLinks :(15) PH12_Jnt
+[2018.07.15-08.47.54:267][683]LogFbx: SortedLinks :(16) CherryStickFront_Jnt
+[2018.07.15-08.47.54:267][683]LogFbx: SortedLinks :(17) TongueEnd_Jnt
+[2018.07.15-08.47.54:267][683]LogFbx: SortedLinks :(18) PH6_Jnt
+[2018.07.15-08.47.54:267][683]LogFbx: SortedLinks :(19) TongueMiddle_Jnt
+[2018.07.15-08.47.54:267][683]LogFbx: SortedLinks :(20) PH7_Jnt
+[2018.07.15-08.47.54:267][683]LogFbx: SortedLinks :(21) PH8_Jnt
+[2018.07.15-08.47.54:267][683]LogFbx: SortedLinks :(22) TongueFronz_Jnt
+[2018.07.15-08.47.54:268][683]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-08.47.54:291][683]LogLinker: Can't find file '/Game/Art_Assets/Rigs/ChillyPepper/PepperWalk'
+[2018.07.15-08.47.54:291][683]LogLinker: Can't find file '/Game/Art_Assets/Rigs/ChillyPepper/PepperWalk'
+[2018.07.15-08.47.54:505][683]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/ChillyPepper/PepperWalk.PepperWalk
+[2018.07.15-08.47.54:512][683]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.PepperWalk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-08.47.54:608][684]LogSkeletalMesh: Skeletal Mesh found in DDC [0.668444ms] /Game/Art_Assets/Rigs/ChillyPepper/Chillypepper.Chillypepper
+[2018.07.15-08.47.55:929][741]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.07.15-08.47.56:822][741]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.07.15-08.47.56:845][741]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0014 seconds. Added 1 classes and 0 folders.
+[2018.07.15-08.47.56:974][741]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.07.15-08.47.58:494][741]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2018.07.15-08.47.58:528][741]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.07.15-08.48.06:408][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-08.48.06:539][ 20]LogSlate: Window 'PepperWalk*' being destroyed
+[2018.07.15-08.48.06:559][ 20]LogSlate: Window 'PepperWalk*' being destroyed
+[2018.07.15-08.48.08:442][ 97]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2018.07.15-08.48.08:489][ 97]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2018.07.15-08.48.08:848][ 98]LogRenderer: Reallocating scene render targets to support 1128x588 Format 10 NumSamples 1 (Frame:1).
+[2018.07.15-08.48.15:069][286]LogSlate: Window 'Select folder to import to' being destroyed
+[2018.07.15-08.48.19:030][451]LogSlate: Window 'Chillypepper_Skeleton*' being destroyed
+[2018.07.15-08.48.19:046][451]LogSlate: Window 'Chillypepper_Skeleton*' being destroyed
+[2018.07.15-08.48.20:039][503]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2018.07.15-08.48.20:083][503]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2018.07.15-08.48.20:376][503]LogSlate: Took 0.000420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.15-08.48.21:651][565]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/Chillypepper.fbx]
+[2018.07.15-08.48.21:759][565]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/Chillypepper.fbx
+[2018.07.15-08.48.21:840][565]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-08.48.21:845][565]LogFbx: =================================================
+[2018.07.15-08.48.21:845][565]LogFbx: Dumping Node START [Pepper] 
+[2018.07.15-08.48.21:845][565]LogFbx: 	Total Deformer Count 454727504.
+[2018.07.15-08.48.21:845][565]LogFbx: 		[Node 1]  (Type Skin).
+[2018.07.15-08.48.21:845][565]LogFbx: =================================================
+[2018.07.15-08.48.21:846][565]LogFbx: 	Attribute () Type (4).
+[2018.07.15-08.48.21:846][565]LogFbx: 		[Node Attribute Child 1] Pepper (Type Mesh).
+[2018.07.15-08.48.21:846][565]LogFbx: Dumping Node END [Pepper]
+[2018.07.15-08.48.21:849][565]LogFbx: =================================================
+[2018.07.15-08.48.21:849][565]LogFbx: Dumping Node START [Pepper] 
+[2018.07.15-08.48.21:849][565]LogFbx: 	Total Deformer Count 454726944.
+[2018.07.15-08.48.21:849][565]LogFbx: 		[Node 1]  (Type Skin).
+[2018.07.15-08.48.21:849][565]LogFbx: =================================================
+[2018.07.15-08.48.21:849][565]LogFbx: 	Attribute () Type (4).
+[2018.07.15-08.48.21:849][565]LogFbx: 		[Node Attribute Child 1] Pepper (Type Mesh).
+[2018.07.15-08.48.21:849][565]LogFbx: Dumping Node END [Pepper]
+[2018.07.15-08.48.21:851][565]LogFbx: Valid bind pose for Pose (skinCluster1) - Pepper
+[2018.07.15-08.48.21:867][565]LogFbx: Triangulating skeletal mesh Pepper
+[2018.07.15-08.48.22:262][565]LogFbx: Warning: Bones digested - 23  Depth of hierarchy - 17
+[2018.07.15-08.48.22:579][565]LogSkeletalMesh: Section 0: 428 vertices, 3 active bones
+[2018.07.15-08.48.22:579][565]LogSkeletalMesh: Section 1: 124 vertices, 2 active bones
+[2018.07.15-08.48.22:579][565]LogSkeletalMesh: Section 2: 1256 vertices, 4 active bones
+[2018.07.15-08.48.22:579][565]LogSkeletalMesh: Section 3: 200 vertices, 3 active bones
+[2018.07.15-08.48.22:599][565]LogSkeletalMesh: Section 0: Material=0, 658 triangles
+[2018.07.15-08.48.22:599][565]LogSkeletalMesh: Section 1: Material=1, 112 triangles
+[2018.07.15-08.48.22:599][565]LogSkeletalMesh: Section 2: Material=2, 1723 triangles
+[2018.07.15-08.48.22:599][565]LogSkeletalMesh: Section 3: Material=3, 148 triangles
+[2018.07.15-08.48.22:601][565]LogSkeletalMesh: Building Skeletal Mesh Chillypepper...
+[2018.07.15-08.48.22:614][565]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Art_Assets/Rigs/ChillyPepper/Chillypepper.Chillypepper
+[2018.07.15-08.48.22:619][565]LogEditorFactories: -- imported successfully
+[2018.07.15-08.48.22:640][565]LogSkeletalMesh: Building Skeletal Mesh Chillypepper...
+[2018.07.15-08.48.22:652][565]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Art_Assets/Rigs/ChillyPepper/Chillypepper.Chillypepper
+[2018.07.15-08.48.25:043][608]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2018.07.15-08.48.25:077][608]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2018.07.15-08.48.25:520][608]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.07.15-08.48.31:080][835]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/PepperWalk.fbx]
+[2018.07.15-08.48.31:108][835]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/PepperWalk.fbx
+[2018.07.15-08.48.31:122][835]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-08.48.31:124][835]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-08.48.31:221][835]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/ChillyPepper/PepperWalk.PepperWalk
+[2018.07.15-08.48.31:222][835]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_0) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-08.48.31:233][835]LogEditorFactories: -- imported successfully
+[2018.07.15-08.48.32:857][905]LogSlate: Window 'PepperWalk*' being destroyed
+[2018.07.15-08.48.32:881][905]LogSlate: Window 'PepperWalk*' being destroyed
+[2018.07.15-08.48.33:925][912]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2018.07.15-08.48.34:092][912]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2018.07.15-08.48.42:309][269]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2018.07.15-08.48.42:411][269]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2018.07.15-08.48.43:777][269]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.07.15-08.49.18:612][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-08.49.21:035][366]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0012 seconds. Added 7 classes and 3 folders.
+[2018.07.15-08.49.21:059][366]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_6.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.07.15-08.49.21:630][366]LogSlate: Took 0.013827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.15-08.49.23:245][461]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_7.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2018.07.15-08.49.23:355][461]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_7.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2018.07.15-08.52.59:057][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-08.52.59:133][337]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/Chillypepper.fbx]
+[2018.07.15-08.52.59:234][337]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/Chillypepper.fbx
+[2018.07.15-08.52.59:314][337]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-08.52.59:317][337]LogFbx: =================================================
+[2018.07.15-08.52.59:317][337]LogFbx: Dumping Node START [Pepper] 
+[2018.07.15-08.52.59:317][337]LogFbx: 	Total Deformer Count 1110838480.
+[2018.07.15-08.52.59:317][337]LogFbx: 		[Node 1]  (Type Skin).
+[2018.07.15-08.52.59:317][337]LogFbx: =================================================
+[2018.07.15-08.52.59:318][337]LogFbx: 	Attribute () Type (4).
+[2018.07.15-08.52.59:318][337]LogFbx: 		[Node Attribute Child 1] Pepper (Type Mesh).
+[2018.07.15-08.52.59:318][337]LogFbx: Dumping Node END [Pepper]
+[2018.07.15-08.52.59:320][337]LogFbx: =================================================
+[2018.07.15-08.52.59:321][337]LogFbx: Dumping Node START [Pepper] 
+[2018.07.15-08.52.59:321][337]LogFbx: 	Total Deformer Count 1110836240.
+[2018.07.15-08.52.59:321][337]LogFbx: 		[Node 1]  (Type Skin).
+[2018.07.15-08.52.59:321][337]LogFbx: =================================================
+[2018.07.15-08.52.59:321][337]LogFbx: 	Attribute () Type (4).
+[2018.07.15-08.52.59:321][337]LogFbx: 		[Node Attribute Child 1] Pepper (Type Mesh).
+[2018.07.15-08.52.59:321][337]LogFbx: Dumping Node END [Pepper]
+[2018.07.15-08.52.59:322][337]LogFbx: Valid bind pose for Pose (skinCluster1) - Pepper
+[2018.07.15-08.52.59:337][337]LogFbx: Triangulating skeletal mesh Pepper
+[2018.07.15-08.52.59:712][337]LogFbx: Warning: Bones digested - 23  Depth of hierarchy - 17
+[2018.07.15-08.53.00:029][337]LogSkeletalMesh: Section 0: 428 vertices, 3 active bones
+[2018.07.15-08.53.00:029][337]LogSkeletalMesh: Section 1: 124 vertices, 4 active bones
+[2018.07.15-08.53.00:030][337]LogSkeletalMesh: Section 2: 1256 vertices, 4 active bones
+[2018.07.15-08.53.00:030][337]LogSkeletalMesh: Section 3: 200 vertices, 3 active bones
+[2018.07.15-08.53.00:056][337]LogSkeletalMesh: Section 0: Material=0, 658 triangles
+[2018.07.15-08.53.00:056][337]LogSkeletalMesh: Section 1: Material=1, 112 triangles
+[2018.07.15-08.53.00:056][337]LogSkeletalMesh: Section 2: Material=2, 1723 triangles
+[2018.07.15-08.53.00:057][337]LogSkeletalMesh: Section 3: Material=3, 148 triangles
+[2018.07.15-08.53.00:059][337]LogSkeletalMesh: Building Skeletal Mesh Chillypepper...
+[2018.07.15-08.53.00:071][337]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Art_Assets/Rigs/ChillyPepper/Chillypepper.Chillypepper
+[2018.07.15-08.53.00:080][337]LogEditorFactories: -- imported successfully
+[2018.07.15-08.53.00:100][337]LogSkeletalMesh: Building Skeletal Mesh Chillypepper...
+[2018.07.15-08.53.00:110][337]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Art_Assets/Rigs/ChillyPepper/Chillypepper.Chillypepper
+[2018.07.15-08.57.04:653][472]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlayerMovementTest' took 0.020
+[2018.07.15-08.57.04:952][472]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art_Assets/Rigs/ChillyPepper/PepperWalk] ([1] browsable assets)...
+[2018.07.15-08.57.05:006][472]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Art_Assets/Rigs/ChillyPepper/PepperWalk.PepperWalk]
+[2018.07.15-08.57.05:006][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art_Assets/Rigs/ChillyPepper/PepperWalk]
+[2018.07.15-08.57.05:029][472]LogSavePackage: Save=17.79ms
+[2018.07.15-08.57.05:029][472]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperWalk_Auto153587D414CBC356ABC8E2BB1B0FD9ED8.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/ChillyPepper/PepperWalk_Auto1.uasset'
+[2018.07.15-08.57.05:032][472]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/ChillyPepper/PepperWalk_Auto1.uasset
+[2018.07.15-08.57.05:034][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art_Assets/Rigs/ChillyPepper/Chillypepper_Skeleton] ([1] browsable assets)...
+[2018.07.15-08.57.05:034][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art_Assets/Rigs/ChillyPepper/Chillypepper_Skeleton]
+[2018.07.15-08.57.05:090][472]LogSavePackage: Save=9.27ms
+[2018.07.15-08.57.05:090][472]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Chillypepper_Skeleton_Auto12605E56444F806B438B79EB5575DB8BB.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/ChillyPepper/Chillypepper_Skeleton_Auto1.uasset'
+[2018.07.15-08.57.05:095][472]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/ChillyPepper/Chillypepper_Skeleton_Auto1.uasset
+[2018.07.15-08.57.05:099][472]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art_Assets/Rigs/ChillyPepper/Chillypepper] ([1] browsable assets)...
+[2018.07.15-08.57.05:132][472]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Art_Assets/Rigs/ChillyPepper/Chillypepper.Chillypepper]
+[2018.07.15-08.57.05:132][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art_Assets/Rigs/ChillyPepper/Chillypepper]
+[2018.07.15-08.57.05:185][472]LogSavePackage: Save=38.69ms
+[2018.07.15-08.57.05:185][472]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Chillypepper_Auto15EDAF7AF48569346B8B9FC83FF4FF108.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/ChillyPepper/Chillypepper_Auto1.uasset'
+[2018.07.15-08.57.05:190][472]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/ChillyPepper/Chillypepper_Auto1.uasset
+[2018.07.15-08.57.05:190][472]LogFileHelpers: Auto-saving content packages took 0.536
+[2018.07.15-09.28.31:432][200]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/ConeWalk.fbx)
+[2018.07.15-09.28.31:442][200]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.15-09.28.31:442][200]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.15-09.28.31:442][200]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.15-09.28.31:442][200]LogFbx: ItemName: NodeAttribute, ItemCount : 23
+[2018.07.15-09.28.31:442][200]LogFbx: ItemName: Model, ItemCount : 23
+[2018.07.15-09.28.31:442][200]LogFbx: ItemName: AnimationCurveNode, ItemCount : 53
+[2018.07.15-09.28.31:442][200]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2018.07.15-09.28.31:442][200]LogFbx: ItemName: AnimationCurve, ItemCount : 60
+[2018.07.15-09.28.31:448][200]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/ConeWalk.fbx
+[2018.07.15-09.28.31:466][200]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-09.28.33:563][200]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.15-09.28.33:599][200]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/ConeWalk.fbx
+[2018.07.15-09.28.33:614][200]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(0) Root_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(1) Movement_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(2) PH1_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(3) PH2_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(4) PH3_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(5) Hip_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(6) PH4_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(7) PH5_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(8) Head_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(9) Cherry_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(10) CherryStickEnd_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(11) PH6_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(12) PH7_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(13) CherryStickMiddle_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(14) PH8_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(15) PH9_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(16) CherryStickFront_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(17) TongueEnd_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(18) PH10_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(19) TongueMiddle_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(20) PH11_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(21) PH12_Jnt
+[2018.07.15-09.28.33:616][200]LogFbx: SortedLinks :(22) TongueFronz_Jnt
+[2018.07.15-09.28.33:617][200]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-09.28.33:617][200]LogLinker: Can't find file '/Game/Art_Assets/Rigs/IceCream/ConeWalk'
+[2018.07.15-09.28.33:618][200]LogLinker: Can't find file '/Game/Art_Assets/Rigs/IceCream/ConeWalk'
+[2018.07.15-09.28.33:732][200]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/IceCream/ConeWalk.ConeWalk
+[2018.07.15-09.28.33:733][200]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ConeWalk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-09.28.33:806][201]LogSkeletalMesh: Skeletal Mesh found in DDC [0.785868ms] /Game/Art_Assets/Rigs/IceCream/IceCreamCone.IceCreamCone
+[2018.07.15-09.28.34:923][262]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_8.DebugSkelMeshComponent_13) Already registered. Aborting.
+[2018.07.15-09.28.34:963][262]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_8.DebugSkelMeshComponent_13) - call TermArticulated first.
+[2018.07.15-09.28.35:368][262]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.07.15-09.29.10:390][675]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlayerMovementTest' took 0.013
+[2018.07.15-09.29.10:393][675]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art_Assets/Rigs/IceCream/ConeWalk] ([1] browsable assets)...
+[2018.07.15-09.29.10:420][675]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Art_Assets/Rigs/IceCream/ConeWalk.ConeWalk]
+[2018.07.15-09.29.10:421][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art_Assets/Rigs/IceCream/ConeWalk]
+[2018.07.15-09.29.10:436][675]LogSavePackage: Save=13.85ms
+[2018.07.15-09.29.10:436][675]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/ConeWalk_Auto247291D3F4A7E4123C00427A0EB1E7388.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/IceCream/ConeWalk_Auto2.uasset'
+[2018.07.15-09.29.10:439][675]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/IceCream/ConeWalk_Auto2.uasset
+[2018.07.15-09.29.10:441][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art_Assets/Rigs/IceCream/IceCreamCone_Skeleton] ([1] browsable assets)...
+[2018.07.15-09.29.10:441][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art_Assets/Rigs/IceCream/IceCreamCone_Skeleton]
+[2018.07.15-09.29.10:452][675]LogSavePackage: Save=2.99ms
+[2018.07.15-09.29.10:452][675]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/IceCreamCone_Skeleton_Auto2906822A14657B6873C00DD9CD9CAC86B.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/IceCream/IceCreamCone_Skeleton_Auto2.uasset'
+[2018.07.15-09.29.10:455][675]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/IceCream/IceCreamCone_Skeleton_Auto2.uasset
+[2018.07.15-09.29.10:455][675]LogFileHelpers: Auto-saving content packages took 0.064
+[2018.07.15-09.29.23:742][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-09.29.23:790][754]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/ConeWalk.fbx]
+[2018.07.15-09.29.23:821][754]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/ConeWalk.fbx
+[2018.07.15-09.29.23:839][754]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-09.29.23:841][754]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-09.29.23:933][754]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/IceCream/ConeWalk.ConeWalk
+[2018.07.15-09.29.23:934][754]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-09.29.23:951][754]LogEditorFactories: -- imported successfully
+[2018.07.15-09.29.35:347][140]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-09.29.35:491][143]LogSlate: Window 'ConeWalk*' being destroyed
+[2018.07.15-09.29.35:508][143]LogSlate: Window 'ConeWalk*' being destroyed
+[2018.07.15-09.30.40:088][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_9.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2018.07.15-09.30.40:245][418]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_9.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2018.07.15-09.30.41:621][418]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.07.15-09.30.43:114][465]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/ConeWalk.fbx]
+[2018.07.15-09.30.43:147][465]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/ConeWalk.fbx
+[2018.07.15-09.30.43:163][465]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-09.30.43:165][465]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-09.30.43:262][465]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/IceCream/ConeWalk.ConeWalk
+[2018.07.15-09.30.43:263][465]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_2) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-09.30.43:276][465]LogEditorFactories: -- imported successfully
+[2018.07.15-09.30.58:660][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-09.39.29:389][626]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlayerMovementTest' took 0.021
+[2018.07.15-09.39.29:392][626]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art_Assets/Rigs/IceCream/ConeWalk] ([1] browsable assets)...
+[2018.07.15-09.39.29:412][626]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Art_Assets/Rigs/IceCream/ConeWalk.ConeWalk]
+[2018.07.15-09.39.29:412][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art_Assets/Rigs/IceCream/ConeWalk]
+[2018.07.15-09.39.29:428][626]LogSavePackage: Save=13.53ms
+[2018.07.15-09.39.29:428][626]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/ConeWalk_Auto3473EF8104013ECE7B9A8C8BABA2C8050.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/IceCream/ConeWalk_Auto3.uasset'
+[2018.07.15-09.39.29:431][626]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/IceCream/ConeWalk_Auto3.uasset
+[2018.07.15-09.39.29:431][626]LogFileHelpers: Auto-saving content packages took 0.041
+[2018.07.15-09.43.03:077][389]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/ConeIdle.fbx)
+[2018.07.15-09.43.03:085][389]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.15-09.43.03:085][389]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.15-09.43.03:085][389]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.15-09.43.03:085][389]LogFbx: ItemName: NodeAttribute, ItemCount : 23
+[2018.07.15-09.43.03:085][389]LogFbx: ItemName: Model, ItemCount : 23
+[2018.07.15-09.43.03:085][389]LogFbx: ItemName: AnimationCurveNode, ItemCount : 53
+[2018.07.15-09.43.03:085][389]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2018.07.15-09.43.03:085][389]LogFbx: ItemName: AnimationCurve, ItemCount : 60
+[2018.07.15-09.43.03:090][389]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/ConeIdle.fbx
+[2018.07.15-09.43.03:106][389]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-09.43.19:424][389]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.15-09.43.19:457][389]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/ConeIdle.fbx
+[2018.07.15-09.43.19:471][389]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(0) Root_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(1) Movement_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(2) PH1_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(3) PH2_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(4) PH3_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(5) Hip_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(6) PH4_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(7) PH5_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(8) Head_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(9) Cherry_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(10) CherryStickEnd_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(11) PH6_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(12) PH7_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(13) CherryStickMiddle_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(14) PH8_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(15) PH9_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(16) CherryStickFront_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(17) TongueEnd_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(18) PH10_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(19) TongueMiddle_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(20) PH11_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(21) PH12_Jnt
+[2018.07.15-09.43.19:472][389]LogFbx: SortedLinks :(22) TongueFronz_Jnt
+[2018.07.15-09.43.19:473][389]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-09.43.19:473][389]LogLinker: Can't find file '/Game/Art_Assets/Rigs/IceCream/ConeIdle'
+[2018.07.15-09.43.19:473][389]LogLinker: Can't find file '/Game/Art_Assets/Rigs/IceCream/ConeIdle'
+[2018.07.15-09.43.19:611][389]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/IceCream/ConeIdle.ConeIdle
+[2018.07.15-09.43.19:611][389]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ConeIdle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-09.44.26:662][563]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/ConeIdle.fbx]
+[2018.07.15-09.44.26:686][563]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/ConeIdle.fbx
+[2018.07.15-09.44.26:699][563]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-09.44.26:700][563]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-09.44.26:830][563]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/IceCream/ConeIdle.ConeIdle
+[2018.07.15-09.44.26:830][563]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_3) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-09.44.26:841][563]LogEditorFactories: -- imported successfully
+[2018.07.15-09.44.31:460][983]LogSlate: Window 'ConeIdle*' being destroyed
+[2018.07.15-09.44.31:465][983]LogSlate: Window 'ConeIdle*' being destroyed
+[2018.07.15-09.49.30:210][527]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlayerMovementTest' took 0.014
+[2018.07.15-09.49.30:213][527]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art_Assets/Rigs/IceCream/ConeIdle] ([1] browsable assets)...
+[2018.07.15-09.49.30:235][527]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Art_Assets/Rigs/IceCream/ConeIdle.ConeIdle]
+[2018.07.15-09.49.30:235][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art_Assets/Rigs/IceCream/ConeIdle]
+[2018.07.15-09.49.30:249][527]LogSavePackage: Save=10.31ms
+[2018.07.15-09.49.30:249][527]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/ConeIdle_Auto4F85C180E4CFD1E8500312DAD290A123E.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/IceCream/ConeIdle_Auto4.uasset'
+[2018.07.15-09.49.30:251][527]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/IceCream/ConeIdle_Auto4.uasset
+[2018.07.15-09.49.30:251][527]LogFileHelpers: Auto-saving content packages took 0.041
+[2018.07.15-10.06.29:458][721]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/PepperIdle.fbx)
+[2018.07.15-10.06.29:466][721]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.15-10.06.29:466][721]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.15-10.06.29:466][721]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.15-10.06.29:466][721]LogFbx: ItemName: NodeAttribute, ItemCount : 23
+[2018.07.15-10.06.29:466][721]LogFbx: ItemName: Model, ItemCount : 23
+[2018.07.15-10.06.29:466][721]LogFbx: ItemName: AnimationCurveNode, ItemCount : 47
+[2018.07.15-10.06.29:466][721]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2018.07.15-10.06.29:466][721]LogFbx: ItemName: AnimationCurve, ItemCount : 48
+[2018.07.15-10.06.29:472][721]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/PepperIdle.fbx
+[2018.07.15-10.06.29:487][721]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-10.06.30:716][721]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.15-10.06.30:745][721]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/PepperIdle.fbx
+[2018.07.15-10.06.30:759][721]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(0) Root_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(1) Movement_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(2) PH1_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(3) PH2_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(4) PH3_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(5) Hip_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(6) PH4_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(7) PH5_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(8) Head_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(9) Cherry_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(10) CherryStickEnd_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(11) PH9_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(12) PH10_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(13) CherryStickMiddle_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(14) PH11_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(15) PH12_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(16) CherryStickFront_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(17) TongueEnd_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(18) PH6_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(19) TongueMiddle_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(20) PH7_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(21) PH8_Jnt
+[2018.07.15-10.06.30:760][721]LogFbx: SortedLinks :(22) TongueFronz_Jnt
+[2018.07.15-10.06.30:761][721]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-10.06.30:761][721]LogLinker: Can't find file '/Game/Art_Assets/Rigs/ChillyPepper/PepperIdle'
+[2018.07.15-10.06.30:761][721]LogLinker: Can't find file '/Game/Art_Assets/Rigs/ChillyPepper/PepperIdle'
+[2018.07.15-10.06.30:889][721]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/ChillyPepper/PepperIdle.PepperIdle
+[2018.07.15-10.06.30:889][721]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.PepperIdle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-10.06.32:219][796]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_10.DebugSkelMeshComponent_20) Already registered. Aborting.
+[2018.07.15-10.06.32:247][796]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.Actor_10.DebugSkelMeshComponent_20) - call TermArticulated first.
+[2018.07.15-10.06.32:582][796]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.07.15-10.06.42:493][382]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.Actor_11.DebugSkelMeshComponent_23) Already registered. Aborting.
+[2018.07.15-10.06.42:522][382]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.Actor_11.DebugSkelMeshComponent_23) - call TermArticulated first.
+[2018.07.15-10.06.42:865][382]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.07.15-10.07.31:496][283]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.15-10.07.31:521][283]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlayerMovementTest' took 0.011
+[2018.07.15-10.07.31:524][283]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art_Assets/Rigs/ChillyPepper/PepperIdle] ([1] browsable assets)...
+[2018.07.15-10.07.31:536][283]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Art_Assets/Rigs/ChillyPepper/PepperIdle.PepperIdle]
+[2018.07.15-10.07.31:536][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art_Assets/Rigs/ChillyPepper/PepperIdle]
+[2018.07.15-10.07.31:551][283]LogSavePackage: Save=11.51ms
+[2018.07.15-10.07.31:551][283]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperIdle_Auto5A3ABF5304D1F1648877D338B0B6974A8.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/ChillyPepper/PepperIdle_Auto5.uasset'
+[2018.07.15-10.07.31:553][283]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/ChillyPepper/PepperIdle_Auto5.uasset
+[2018.07.15-10.07.31:553][283]LogFileHelpers: Auto-saving content packages took 0.032
+[2018.07.15-10.07.40:810][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-10.07.45:913][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-10.17.37:290][517]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/PepperHurt.fbx)
+[2018.07.15-10.17.37:300][517]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.15-10.17.37:301][517]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.15-10.17.37:301][517]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.15-10.17.37:301][517]LogFbx: ItemName: NodeAttribute, ItemCount : 23
+[2018.07.15-10.17.37:301][517]LogFbx: ItemName: Model, ItemCount : 23
+[2018.07.15-10.17.37:301][517]LogFbx: ItemName: AnimationCurveNode, ItemCount : 47
+[2018.07.15-10.17.37:301][517]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2018.07.15-10.17.37:301][517]LogFbx: ItemName: AnimationCurve, ItemCount : 48
+[2018.07.15-10.17.37:307][517]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/PepperHurt.fbx
+[2018.07.15-10.17.37:321][517]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-10.17.38:352][517]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.15-10.17.38:383][517]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/PepperHurt.fbx
+[2018.07.15-10.17.38:396][517]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-10.17.38:397][517]LogFbx: SortedLinks :(0) Root_Jnt
+[2018.07.15-10.17.38:397][517]LogFbx: SortedLinks :(1) Movement_Jnt
+[2018.07.15-10.17.38:397][517]LogFbx: SortedLinks :(2) PH1_Jnt
+[2018.07.15-10.17.38:397][517]LogFbx: SortedLinks :(3) PH2_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(4) PH3_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(5) Hip_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(6) PH4_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(7) PH5_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(8) Head_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(9) Cherry_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(10) CherryStickEnd_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(11) PH9_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(12) PH10_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(13) CherryStickMiddle_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(14) PH11_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(15) PH12_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(16) CherryStickFront_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(17) TongueEnd_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(18) PH6_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(19) TongueMiddle_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(20) PH7_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(21) PH8_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: SortedLinks :(22) TongueFronz_Jnt
+[2018.07.15-10.17.38:399][517]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-10.17.38:399][517]LogLinker: Can't find file '/Game/Art_Assets/Rigs/ChillyPepper/PepperHurt'
+[2018.07.15-10.17.38:399][517]LogLinker: Can't find file '/Game/Art_Assets/Rigs/ChillyPepper/PepperHurt'
+[2018.07.15-10.17.38:451][517]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/ChillyPepper/PepperHurt.PepperHurt
+[2018.07.15-10.17.38:451][517]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.PepperHurt) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-10.18.09:333][ 34]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlayerMovementTest' took 0.012
+[2018.07.15-10.18.09:336][ 34]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art_Assets/Rigs/ChillyPepper/PepperHurt] ([1] browsable assets)...
+[2018.07.15-10.18.09:348][ 34]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Art_Assets/Rigs/ChillyPepper/PepperHurt.PepperHurt]
+[2018.07.15-10.18.09:348][ 34]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art_Assets/Rigs/ChillyPepper/PepperHurt]
+[2018.07.15-10.18.09:363][ 34]LogSavePackage: Save=12.26ms
+[2018.07.15-10.18.09:363][ 34]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperHurt_Auto60FA55DFA46E97869070667BB03498D1F.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/ChillyPepper/PepperHurt_Auto6.uasset'
+[2018.07.15-10.18.09:365][ 34]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/ChillyPepper/PepperHurt_Auto6.uasset
+[2018.07.15-10.18.09:365][ 34]LogFileHelpers: Auto-saving content packages took 0.032
+[2018.07.15-10.18.31:516][188]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/PepperHurt.fbx]
+[2018.07.15-10.18.31:539][188]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/PepperHurt.fbx
+[2018.07.15-10.18.31:552][188]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-10.18.31:553][188]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-10.18.31:618][188]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/ChillyPepper/PepperHurt.PepperHurt
+[2018.07.15-10.18.31:619][188]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.PepperHurt) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-10.18.31:628][188]LogEditorFactories: -- imported successfully
+[2018.07.15-10.18.41:433][697]LogSlate: Window 'Save Content' being destroyed
+[2018.07.15-10.18.41:470][697]LogSavePackage: Save=6.32ms
+[2018.07.15-10.18.41:470][697]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Chillypepper7257BE564CD39B06A1A7FE9FF9B727F3.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/Chillypepper.uasset'
+[2018.07.15-10.18.41:475][697]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/Chillypepper.uasset
+[2018.07.15-10.18.41:494][697]LogSavePackage: Save=3.29ms
+[2018.07.15-10.18.41:494][697]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Chillypepper_Skeleton637FB68F462963EE92F4C5A2A2CC0CCA.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/Chillypepper_Skeleton.uasset'
+[2018.07.15-10.18.41:500][697]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/Chillypepper_Skeleton.uasset
+[2018.07.15-10.18.41:515][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/Rigs/ChillyPepper/PepperHurt" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/PepperHurt.uasset" SILENT=true
+[2018.07.15-10.18.41:529][697]LogSavePackage: Save=11.29ms
+[2018.07.15-10.18.41:529][697]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperHurt7A3859B54052D489C8C819BF4FF53760.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/PepperHurt.uasset'
+[2018.07.15-10.18.41:532][697]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/PepperHurt.uasset
+[2018.07.15-10.18.41:549][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/Rigs/ChillyPepper/PepperIdle" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/PepperIdle.uasset" SILENT=true
+[2018.07.15-10.18.41:603][697]LogSavePackage: Save=11.62ms
+[2018.07.15-10.18.41:603][697]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperIdleF32622CB4292934B244E088C22ED2C01.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/PepperIdle.uasset'
+[2018.07.15-10.18.41:608][697]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/PepperIdle.uasset
+[2018.07.15-10.18.41:622][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/Rigs/ChillyPepper/PepperWalk" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/PepperWalk.uasset" SILENT=true
+[2018.07.15-10.18.41:638][697]LogSavePackage: Save=13.02ms
+[2018.07.15-10.18.41:638][697]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperWalk3DD868044B04A05346A72CBB21A00617.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/PepperWalk.uasset'
+[2018.07.15-10.18.41:642][697]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/PepperWalk.uasset
+[2018.07.15-10.18.41:656][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/Rigs/IceCream/ConeIdle" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/ConeIdle.uasset" SILENT=true
+[2018.07.15-10.18.41:669][697]LogSavePackage: Save=10.33ms
+[2018.07.15-10.18.41:669][697]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/ConeIdle7DF102B14A592E68AF68ECA873F36913.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/ConeIdle.uasset'
+[2018.07.15-10.18.41:673][697]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/ConeIdle.uasset
+[2018.07.15-10.18.41:689][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/Rigs/IceCream/ConeWalk" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/ConeWalk.uasset" SILENT=true
+[2018.07.15-10.18.41:703][697]LogSavePackage: Save=11.83ms
+[2018.07.15-10.18.41:703][697]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/ConeWalkCCF17EEB41F791D0E0E6CD9A60F2E4C7.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/ConeWalk.uasset'
+[2018.07.15-10.18.41:707][697]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/ConeWalk.uasset
+[2018.07.15-10.18.41:719][697]LogSavePackage: Save=2.65ms
+[2018.07.15-10.18.41:719][697]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/IceCreamCone_SkeletonE7AB0F3746EFE7189BCB38B5EDCE685C.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/IceCreamCone_Skeleton.uasset'
+[2018.07.15-10.18.41:724][697]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/IceCreamCone_Skeleton.uasset
+[2018.07.15-10.29.55:054][112]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/ConeHurt.fbx)
+[2018.07.15-10.29.55:061][112]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.15-10.29.55:061][112]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.15-10.29.55:062][112]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.15-10.29.55:062][112]LogFbx: ItemName: NodeAttribute, ItemCount : 23
+[2018.07.15-10.29.55:062][112]LogFbx: ItemName: Model, ItemCount : 23
+[2018.07.15-10.29.55:062][112]LogFbx: ItemName: AnimationCurveNode, ItemCount : 53
+[2018.07.15-10.29.55:062][112]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2018.07.15-10.29.55:062][112]LogFbx: ItemName: AnimationCurve, ItemCount : 60
+[2018.07.15-10.29.55:068][112]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/ConeHurt.fbx
+[2018.07.15-10.29.55:084][112]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-10.29.56:013][112]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.15-10.29.56:041][112]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/ConeHurt.fbx
+[2018.07.15-10.29.56:054][112]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-10.29.56:055][112]LogFbx: SortedLinks :(0) Root_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(1) Movement_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(2) PH1_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(3) PH2_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(4) PH3_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(5) Hip_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(6) PH4_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(7) PH5_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(8) Head_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(9) Cherry_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(10) CherryStickEnd_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(11) PH6_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(12) PH7_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(13) CherryStickMiddle_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(14) PH8_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(15) PH9_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(16) CherryStickFront_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(17) TongueEnd_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(18) PH10_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(19) TongueMiddle_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(20) PH11_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(21) PH12_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: SortedLinks :(22) TongueFronz_Jnt
+[2018.07.15-10.29.56:056][112]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-10.29.56:057][112]LogLinker: Can't find file '/Game/Art_Assets/Rigs/IceCream/ConeHurt'
+[2018.07.15-10.29.56:057][112]LogLinker: Can't find file '/Game/Art_Assets/Rigs/IceCream/ConeHurt'
+[2018.07.15-10.29.56:111][112]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/IceCream/ConeHurt.ConeHurt
+[2018.07.15-10.29.56:111][112]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ConeHurt) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-10.30.14:052][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-10.30.15:984][233]LogSlate: Window 'Save Content' being destroyed
+[2018.07.15-10.30.16:017][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/Rigs/IceCream/ConeHurt" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/ConeHurt.uasset" SILENT=true
+[2018.07.15-10.30.16:031][233]LogSavePackage: Save=10.95ms
+[2018.07.15-10.30.16:031][233]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/ConeHurt313AEEB34079E2533626BAA9947293E8.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/ConeHurt.uasset'
+[2018.07.15-10.30.16:036][233]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/ConeHurt.uasset
+[2018.07.15-10.30.49:121][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-10.31.01:267][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-10.49.51:097][751]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/PepperDeath.fbx)
+[2018.07.15-10.49.51:115][751]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.15-10.49.51:115][751]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.15-10.49.51:115][751]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.15-10.49.51:115][751]LogFbx: ItemName: NodeAttribute, ItemCount : 23
+[2018.07.15-10.49.51:115][751]LogFbx: ItemName: Model, ItemCount : 23
+[2018.07.15-10.49.51:115][751]LogFbx: ItemName: AnimationCurveNode, ItemCount : 47
+[2018.07.15-10.49.51:115][751]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2018.07.15-10.49.51:115][751]LogFbx: ItemName: AnimationCurve, ItemCount : 48
+[2018.07.15-10.49.51:121][751]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/PepperDeath.fbx
+[2018.07.15-10.49.51:141][751]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-10.49.52:133][751]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.15-10.49.52:169][751]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/PepperDeath.fbx
+[2018.07.15-10.49.52:183][751]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(0) Root_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(1) Movement_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(2) PH1_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(3) PH2_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(4) PH3_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(5) Hip_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(6) PH4_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(7) PH5_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(8) Head_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(9) Cherry_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(10) CherryStickEnd_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(11) PH9_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(12) PH10_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(13) CherryStickMiddle_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(14) PH11_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(15) PH12_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(16) CherryStickFront_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(17) TongueEnd_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(18) PH6_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(19) TongueMiddle_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(20) PH7_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(21) PH8_Jnt
+[2018.07.15-10.49.52:184][751]LogFbx: SortedLinks :(22) TongueFronz_Jnt
+[2018.07.15-10.49.52:185][751]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-10.49.52:186][751]LogLinker: Can't find file '/Game/Art_Assets/Rigs/ChillyPepper/PepperDeath'
+[2018.07.15-10.49.52:186][751]LogLinker: Can't find file '/Game/Art_Assets/Rigs/ChillyPepper/PepperDeath'
+[2018.07.15-10.49.52:304][751]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/ChillyPepper/PepperDeath.PepperDeath
+[2018.07.15-10.49.52:305][751]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.PepperDeath) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-10.50.17:375][712]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlayerMovementTest' took 0.011
+[2018.07.15-10.50.17:378][712]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art_Assets/Rigs/ChillyPepper/PepperDeath] ([1] browsable assets)...
+[2018.07.15-10.50.17:395][712]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Art_Assets/Rigs/ChillyPepper/PepperDeath.PepperDeath]
+[2018.07.15-10.50.17:395][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art_Assets/Rigs/ChillyPepper/PepperDeath]
+[2018.07.15-10.50.17:408][712]LogSavePackage: Save=10.56ms
+[2018.07.15-10.50.17:409][712]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperDeath_Auto72D9658C24D9F9113A960FBA319B5BCB2.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/ChillyPepper/PepperDeath_Auto7.uasset'
+[2018.07.15-10.50.17:411][712]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/Autosaves/Game/Art_Assets/Rigs/ChillyPepper/PepperDeath_Auto7.uasset
+[2018.07.15-10.50.17:411][712]LogFileHelpers: Auto-saving content packages took 0.035
+[2018.07.15-11.05.03:386][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.15-11.05.48:348][249]LogEditorFactories: Performing atomic reimport of [D:/BrainsEden/characters/PepperDeath.fbx]
+[2018.07.15-11.05.48:373][249]LogFbx: Loading FBX Scene from D:/BrainsEden/characters/PepperDeath.fbx
+[2018.07.15-11.05.48:388][249]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-11.05.48:389][249]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-11.05.48:470][249]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/ChillyPepper/PepperDeath.PepperDeath
+[2018.07.15-11.05.48:471][249]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_4) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-11.05.48:483][249]LogEditorFactories: -- imported successfully
+[2018.07.15-11.05.55:860][669]LogSlate: Window 'Save Content' being destroyed
+[2018.07.15-11.05.55:907][669]LogSavePackage: Save=11.70ms
+[2018.07.15-11.05.55:907][669]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/PepperDeath993A7EFC44C182FC5DEFB7877CBF5E60.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/PepperDeath.uasset'
+[2018.07.15-11.05.55:911][669]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/ChillyPepper/PepperDeath.uasset
+[2018.07.15-11.12.44:081][456]LogSlate: Window 'ConeHurt' being destroyed
+[2018.07.15-11.12.44:087][456]LogSlate: Window 'ConeHurt' being destroyed
+[2018.07.15-11.12.48:716][536]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../BrainsEden/characters/ConeDeath.fbx)
+[2018.07.15-11.12.48:724][536]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.15-11.12.48:724][536]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.15-11.12.48:724][536]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.15-11.12.48:724][536]LogFbx: ItemName: NodeAttribute, ItemCount : 23
+[2018.07.15-11.12.48:724][536]LogFbx: ItemName: Model, ItemCount : 23
+[2018.07.15-11.12.48:724][536]LogFbx: ItemName: AnimationCurveNode, ItemCount : 53
+[2018.07.15-11.12.48:724][536]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2018.07.15-11.12.48:724][536]LogFbx: ItemName: AnimationCurve, ItemCount : 60
+[2018.07.15-11.12.48:730][536]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/ConeDeath.fbx
+[2018.07.15-11.12.48:747][536]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-11.12.49:844][536]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.15-11.12.49:883][536]LogFbx: Loading FBX Scene from ../../../../../../BrainsEden/characters/ConeDeath.fbx
+[2018.07.15-11.12.49:896][536]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(0) Root_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(1) Movement_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(2) PH1_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(3) PH2_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(4) PH3_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(5) Hip_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(6) PH4_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(7) PH5_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(8) Head_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(9) Cherry_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(10) CherryStickEnd_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(11) PH6_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(12) PH7_Jnt
+[2018.07.15-11.12.49:898][536]LogFbx: SortedLinks :(13) CherryStickMiddle_Jnt
+[2018.07.15-11.12.49:899][536]LogFbx: SortedLinks :(14) PH8_Jnt
+[2018.07.15-11.12.49:899][536]LogFbx: SortedLinks :(15) PH9_Jnt
+[2018.07.15-11.12.49:899][536]LogFbx: SortedLinks :(16) CherryStickFront_Jnt
+[2018.07.15-11.12.49:899][536]LogFbx: SortedLinks :(17) TongueEnd_Jnt
+[2018.07.15-11.12.49:899][536]LogFbx: SortedLinks :(18) PH10_Jnt
+[2018.07.15-11.12.49:899][536]LogFbx: SortedLinks :(19) TongueMiddle_Jnt
+[2018.07.15-11.12.49:899][536]LogFbx: SortedLinks :(20) PH11_Jnt
+[2018.07.15-11.12.49:899][536]LogFbx: SortedLinks :(21) PH12_Jnt
+[2018.07.15-11.12.49:899][536]LogFbx: SortedLinks :(22) TongueFronz_Jnt
+[2018.07.15-11.12.49:899][536]LogFbx: Parsing AnimStack Take 001
+[2018.07.15-11.12.49:900][536]LogLinker: Can't find file '/Game/Art_Assets/Rigs/IceCream/ConeDeath'
+[2018.07.15-11.12.49:900][536]LogLinker: Can't find file '/Game/Art_Assets/Rigs/IceCream/ConeDeath'
+[2018.07.15-11.12.49:985][536]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art_Assets/Rigs/IceCream/ConeDeath.ConeDeath
+[2018.07.15-11.12.49:986][536]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ConeDeath) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.15-11.12.54:087][864]LogSlate: Window 'Save Content' being destroyed
+[2018.07.15-11.12.54:118][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/Rigs/IceCream/ConeDeath" FILE="../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/ConeDeath.uasset" SILENT=true
+[2018.07.15-11.12.54:132][864]LogSavePackage: Save=10.60ms
+[2018.07.15-11.12.54:132][864]LogSavePackage: Moving '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Saved/ConeDeath0EC954044C1B51E28C597FA42D4CED47.tmp' to '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/ConeDeath.uasset'
+[2018.07.15-11.12.54:138][864]LogSavePackage: Display: Finished SavePackage ../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/Art_Assets/Rigs/IceCream/ConeDeath.uasset
+[2018.07.15-11.12.55:435][  9]LogSlate: Window 'HotAsIce - Unreal Editor' being destroyed
+[2018.07.15-11.12.55:435][  9]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.15-11.12.55:621][ 10]Cmd: QUIT_EDITOR
+[2018.07.15-11.12.55:681][ 10]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.07.15-11.12.55:682][ 10]LogExit: Preparing to exit.
+[2018.07.15-11.12.56:744][ 10]LogDirectoryWatcher: A directory notification for 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/' was aborted.
+[2018.07.15-11.12.56:774][ 10]LogExit: Editor shut down
+[2018.07.15-11.12.56:787][ 10]LogExit: Transaction tracking system shut down
+[2018.07.15-11.12.56:801][ 10]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fec74dbf20, Size=200
+[2018.07.15-11.12.56:802][ 10]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fec74bee80, Size=416
+[2018.07.15-11.12.56:802][ 10]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001feab0c9c00, Size=992
+[2018.07.15-11.12.56:802][ 10]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fec74474c0, Size=184
+[2018.07.15-11.12.56:802][ 10]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fec740f200, Size=1136
+[2018.07.15-11.12.56:802][ 10]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fec742af80, Size=336
+[2018.07.15-11.12.56:802][ 10]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fec73ec520, Size=48
+[2018.07.15-11.12.56:802][ 10]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fec757ea00, Size=4
+[2018.07.15-11.12.56:802][ 10]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fec736b880, Size=624
+[2018.07.15-11.12.56:802][ 10]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fec747b740, Size=296
+[2018.07.15-11.12.56:802][ 10]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fec757dfe0, Size=8
+[2018.07.15-11.12.56:926][ 10]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.07.15-11.12.56:926][ 10]LogDirectoryWatcher: A directory notification for '../../../../../../BrainsEden/BrainsEden2018/HotAsIce/Content/' was aborted.
+[2018.07.15-11.12.56:926][ 10]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.07.15-11.12.56:926][ 10]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.07.15-11.12.56:926][ 10]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.07.15-11.12.56:926][ 10]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.07.15-11.12.56:926][ 10]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.07.15-11.12.56:926][ 10]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.07.15-11.12.56:992][ 10]LogExit: Object subsystem successfully closed.
+[2018.07.15-11.12.57:007][ 10]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.07.15-11.12.57:012][ 10]LogD3D11RHI: Shutdown
+[2018.07.15-11.12.57:012][ 10]LogD3D11RHI: CleanupD3DDevice
+[2018.07.15-11.12.57:014][ 10]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.07.15-11.12.57:025][ 10]LogModuleManager: Shutting down and abandoning module PhysicsAssetEditor (586)
+[2018.07.15-11.12.57:025][ 10]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (584)
+[2018.07.15-11.12.57:025][ 10]LogModuleManager: Shutting down and abandoning module PinnedCommandList (582)
+[2018.07.15-11.12.57:025][ 10]LogModuleManager: Shutting down and abandoning module SkeletonEditor (580)
+[2018.07.15-11.12.57:025][ 10]LogModuleManager: Shutting down and abandoning module AnimationEditor (578)
+[2018.07.15-11.12.57:025][ 10]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2018.07.15-11.12.57:025][ 10]LogModuleManager: Shutting down and abandoning module WorldBrowser (574)
+[2018.07.15-11.12.57:025][ 10]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.07.15-11.12.57:025][ 10]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.07.15-11.12.57:025][ 10]LogDirectoryWatcher: A directory notification for 'D:/programs/unreal/UE_4.19/FeaturePacks/' was aborted.
+[2018.07.15-11.12.57:026][ 10]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.07.15-11.12.57:026][ 10]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.07.15-11.12.57:026][ 10]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.07.15-11.12.57:026][ 10]LogDirectoryWatcher: A directory notification for 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/Collections/' was aborted.
+[2018.07.15-11.12.57:027][ 10]LogDirectoryWatcher: A directory notification for 'D:/BrainsEden/BrainsEden2018/HotAsIce/Content/Developers/jenni/Collections/' was aborted.
+[2018.07.15-11.12.57:027][ 10]LogDirectoryWatcher: A directory notification for 'D:/BrainsEden/BrainsEden2018/HotAsIce/Saved/Collections/' was aborted.
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.07.15-11.12.57:027][ 10]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.07.15-11.12.57:028][ 10]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.07.15-11.12.57:221][ 10]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.07.15-11.12.57:221][ 10]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.07.15-11.12.57:221][ 10]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.07.15-11.12.57:221][ 10]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.07.15-11.12.57:221][ 10]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.07.15-11.12.57:221][ 10]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.07.15-11.12.57:222][ 10]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.07.15-11.12.57:276][ 10]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.07.15-11.12.57:276][ 10]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.07.15-11.12.57:276][ 10]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.07.15-11.12.57:276][ 10]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.07.15-11.12.57:276][ 10]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.07.15-11.12.57:276][ 10]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.07.15-11.12.57:276][ 10]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.07.15-11.12.57:276][ 10]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.07.15-11.12.57:276][ 10]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.07.15-11.12.57:276][ 10]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.07.15-11.12.57:277][ 10]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.07.15-11.12.57:277][ 10]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.07.15-11.12.57:277][ 10]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.07.15-11.12.57:277][ 10]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.07.15-11.12.57:277][ 10]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.07.15-11.12.57:277][ 10]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
+[2018.07.15-11.12.57:278][ 10]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
+[2018.07.15-11.12.57:399][ 10]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
+[2018.07.15-11.12.57:399][ 10]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module OculusInput (364)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module CableComponent (358)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
+[2018.07.15-11.12.57:400][ 10]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
+[2018.07.15-11.12.57:403][ 10]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
+[2018.07.15-11.12.57:403][ 10]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
+[2018.07.15-11.12.57:403][ 10]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module SourceControl (303)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.07.15-11.12.57:404][ 10]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.07.15-11.12.57:506][ 10]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.07.15-11.12.57:607][ 10]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.07.15-11.12.57:607][ 10]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.07.15-11.12.57:607][ 10]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.07.15-11.12.57:607][ 10]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.07.15-11.12.57:607][ 10]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.07.15-11.12.57:607][ 10]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.07.15-11.12.57:608][ 10]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.07.15-11.12.57:608][ 10]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.07.15-11.12.57:608][ 10]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.07.15-11.12.57:608][ 10]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.07.15-11.12.57:608][ 10]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.07.15-11.12.57:610][ 10]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.07.15-11.12.57:610][ 10]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.07.15-11.12.57:610][ 10]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.07.15-11.12.57:610][ 10]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.07.15-11.12.58:328][ 10]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.07.15-11.12.58:328][ 10]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.07.15-11.12.58:329][ 10]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.07.15-11.12.58:331][ 10]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.07.15-11.12.58:337][ 10]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.07.15-11.12.58:337][ 10]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.07.15-11.12.58:337][ 10]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.07.15-11.12.58:338][ 10]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.07.15-11.12.58:340][ 10]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.07.15-11.12.58:342][ 10]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.07.15-11.12.58:393][ 10]LogDerivedDataCache: Shutdown
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.07.15-11.12.58:394][ 10]LogXGEController: Cleaning working directory: C:/Users/jenni/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.07.15-11.12.58:394][ 10]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.07.15-11.12.58:395][ 10]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.07.15-11.12.58:395][ 10]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.07.15-11.12.58:395][ 10]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEE793F3C-427D-5D91-837C-BCAB7247564B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=c6d563e5492e88c256b4c6b368edfac5%7C139496f2ec3e4a238267ad01c3cb9c62%7C8e32ebbc-6442-4dc0-8d56-332ba37520ce&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.07.15-11.12.58:422][ 10]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.07.15-11.12.58:423][ 10]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.07.15-11.12.58:424][ 10]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.07.15-11.12.58:424][ 10]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.07.15-11.12.58:424][ 10]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.07.15-11.12.58:424][ 10]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.07.15-11.12.58:424][ 10]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.07.15-11.12.58:424][ 10]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.07.15-11.12.58:425][ 10]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.07.15-11.12.58:425][ 10]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.07.15-11.12.58:425][ 10]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.07.15-11.12.58:425][ 10]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.07.15-11.12.58:425][ 10]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.07.15-11.12.58:425][ 10]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.07.15-11.12.58:425][ 10]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.07.15-11.12.58:425][ 10]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.07.15-11.12.58:425][ 10]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.07.15-11.12.58:425][ 10]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.07.15-11.12.58:425][ 10]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.07.15-11.12.58:433][ 10]LogExit: Exiting.
+[2018.07.15-11.12.58:446][ 10]Log file closed, 07/15/18 13:12:58
