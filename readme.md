@@ -5,10 +5,6 @@
 ---
 
 #### Controls:
-Player1:
- - WASD: Move
- - E: Slide
-
-Player2:
- - Arrow keys: Move
- - Numpad 0: Slide
+- Left gamepad joystick: Move
+- Hold right trigger: Shoot
+- Hold left trigger: Paint ground
