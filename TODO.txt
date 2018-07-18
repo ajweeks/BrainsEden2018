@@ -1,4 +1,5 @@
 
+[x] Vibrate only when taking damage
 [ ] Fix issue where player round won count can be incremented twice for a single win
 [ ] Add delay after round ends and before entering new round
 [ ] Show who won the previous round
