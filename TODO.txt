@@ -1,0 +1,11 @@
+
+[ ] Fix issue where player round won count can be incremented twice for a single win
+[ ] Add delay after round ends and before entering new round
+[ ] Show who won the previous round
+[ ] Trigger player death sound effect
+[ ] Play "player wins" sound effect after player has won 3 rounds
+[ ] Allow player to shoot multiple projectiles in rapid succession (more than one in the air at once). 
+[ ] Center UI menu
+[ ] Show particles when taking damage or healing from ground
+[ ] Flash overheating UI element when overheating
+[ ] Flash health bar when taking damage
