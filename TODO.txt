@@ -1,6 +1,8 @@
 
 [x] Vibrate only when taking damage
 [x] Fix issue where player round won count can be incremented twice for a single win
+[x] Flash overheating UI element when overheating
+[x] Scale up health needle when taking damage
 [ ] Add delay after round ends and before entering new round
 [ ] Show who won the previous round
 [ ] Trigger player death sound effect
@@ -8,5 +10,3 @@
 [ ] Allow player to shoot multiple projectiles in rapid succession (more than one in the air at once). 
 [ ] Center UI menu
 [ ] Show particles when taking damage or healing from ground
-[ ] Flash overheating UI element when overheating
-[ ] Flash health bar when taking damage
