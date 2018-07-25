@@ -6,7 +6,7 @@
 [x] Add delay after round ends and before entering new round
 [x] Show who won the previous round
 [x] Trigger player death sound effect
-[ ] Trigger player death anim (never did any animations in UE4, so will check when I have time, or if someone can say where I have to trigger the Animations of the player that would be great-Friedel-)
+[x] Trigger player death anim
 [x] Play "player wins" sound effect after player has won 3 rounds
 [ ] Allow player to shoot multiple projectiles in rapid succession (more than one in the air at once). 
 [x] Center UI menu
